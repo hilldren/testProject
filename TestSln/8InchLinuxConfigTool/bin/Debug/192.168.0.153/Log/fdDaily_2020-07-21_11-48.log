@@ -1,0 +1,886 @@
+[2020-07-21 11:48:33.071 +08:00] [thread 360] [info] ReadSenseInit success!
+[2020-07-21 11:48:33.072 +08:00] [thread 360] [info] fdAlgoAdaptInit RS algo init success!
+[2020-07-21 11:48:33.072 +08:00] [thread 360] [info] faceDetect begin to run version v5.5.3.0714.
+[2020-07-21 11:48:33.072 +08:00] [thread 360] [info] fdReadLicense read license[/mnt/mtd/nsd/ai/camera/license] OK! fileLen[64]
+[2020-07-21 11:48:33.073 +08:00] [thread 360] [info] fdReadLicense pLicSize[64].
+[2020-07-21 11:48:33.075 +08:00] [thread 360] [info] fdReadLicense decrypt success!
+[2020-07-21 11:48:33.075 +08:00] [thread 360] [info] fdReadNode find node[MAC] iNodeStart[7]!
+[2020-07-21 11:48:33.076 +08:00] [thread 360] [info] fdCheckSingleMac mac[00:0c:29:09:e1:77].
+[2020-07-21 11:48:33.076 +08:00] [thread 360] [info] fdCheckMacs mac validate ok!
+[2020-07-21 11:48:33.076 +08:00] [thread 360] [info] fdReadNode find node[Date] iNodeStart[36]!
+[2020-07-21 11:48:33.076 +08:00] [thread 360] [info] fdCheckDate system date is 2020-07-21.
+[2020-07-21 11:48:33.076 +08:00] [thread 360] [info] fdCheckDate system date validate OK.
+[2020-07-21 11:48:33.079 +08:00] [thread 360] [info] fdFtpInit init success!
+[2020-07-21 11:48:33.095 +08:00] [thread 360] [info] fdDbInit opened database successfully.
+[2020-07-21 11:48:33.105 +08:00] [thread 360] [info] fdDbInit init OK.
+[2020-07-21 11:48:33.400 +08:00] [thread 360] [info] fdFaceClientCreate no screen server addr :http://192.168.1.130:22401/.
+[2020-07-21 11:48:33.400 +08:00] [thread 360] [info] fdFaceClientCreate hprose server addr :http://192.168.1.132:7569/.
+[2020-07-21 11:48:33.401 +08:00] [thread 490] [info] fdHproseThreadRun start success!!
+[2020-07-21 11:48:33.401 +08:00] [thread 360] [info] faceDetect init ok.
+[2020-07-21 11:48:33.402 +08:00] [thread 495] [info] fdMonitorInit hprose server addr :http://192.168.1.133:9990/.
+[2020-07-21 11:48:33.403 +08:00] [thread 489] [info] fdFaceThreadRun thread start.
+[2020-07-21 11:48:33.403 +08:00] [thread 493] [info] fdSyncThreadRun start success!
+[2020-07-21 11:48:33.410 +08:00] [thread 496] [info] fdConfSetInit hprose server addr :http://192.168.1.130:22401/.
+[2020-07-21 11:48:33.412 +08:00] [thread 494] [info] fdSocketThreadRun thread start success!!
+[2020-07-21 11:48:33.412 +08:00] [thread 494] [info] CListenerImpl::OnPrepareConnect socket[1] prepare connect.
+[2020-07-21 11:48:33.413 +08:00] [thread 494] [info] fdSockStart start connection:1.
+[2020-07-21 11:48:33.429 +08:00] [thread 497] [info] CListenerImpl::OnConnect socket[1] connected.
+[2020-07-21 11:48:33.431 +08:00] [thread 497] [info] CListenerImpl::OnHandShake socket[1] hand shake.
+[2020-07-21 11:48:33.433 +08:00] [thread 497] [info] CListenerImpl::OnSend socket[1] send msg success with length:58.
+[2020-07-21 11:48:33.443 +08:00] [thread 497] [info] CListenerImpl::OnReceive socket[1] receive msg[@@BD2A9B2B-9066-41C9-9602-F0737F2223B5$RegDev$0$**] iLength[50].
+[2020-07-21 11:48:33.443 +08:00] [thread 497] [info] fdSockMsgDecode msgBuff: @@BD2A9B2B-9066-41C9-9602-F0737F2223B5$RegDev$0$**.
+[2020-07-21 11:48:33.443 +08:00] [thread 497] [info] fdSockMsgDecode msgBuff after decode: .
+[2020-07-21 11:48:33.498 +08:00] [thread 496] [error] fdCSGetCmd GetDeviceConfigState catch exception[write].
+[2020-07-21 11:48:33.512 +08:00] [thread 495] [info] fdMonitorThreadRun Start success!!!
+[2020-07-21 11:48:35.855 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5111].
+[2020-07-21 11:48:35.855 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5105].
+[2020-07-21 11:48:35.856 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5104].
+[2020-07-21 11:48:35.856 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5107].
+[2020-07-21 11:48:35.856 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5106].
+[2020-07-21 11:48:35.856 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5109].
+[2020-07-21 11:48:35.857 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5108].
+[2020-07-21 11:48:35.857 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5103].
+[2020-07-21 11:48:35.858 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5110].
+[2020-07-21 11:48:35.859 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5102].
+[2020-07-21 11:48:35.859 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5117].
+[2020-07-21 11:48:35.859 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5115].
+[2020-07-21 11:48:35.860 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5114].
+[2020-07-21 11:48:35.860 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5113].
+[2020-07-21 11:48:35.860 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5112].
+[2020-07-21 11:48:35.860 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5121].
+[2020-07-21 11:48:35.860 +08:00] [thread 489] [error] fdFVModelInit dbModel.strFeatur is empty, modelId is :5120
+[2020-07-21 11:48:35.861 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5119].
+[2020-07-21 11:48:35.861 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5118].
+[2020-07-21 11:48:35.861 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5116].
+[2020-07-21 11:48:35.861 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5127].
+[2020-07-21 11:48:35.861 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5124].
+[2020-07-21 11:48:35.862 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5129].
+[2020-07-21 11:48:35.862 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5122].
+[2020-07-21 11:48:35.864 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5131].
+[2020-07-21 11:48:35.864 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5130].
+[2020-07-21 11:48:35.864 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5128].
+[2020-07-21 11:48:35.864 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5126].
+[2020-07-21 11:48:35.865 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5125].
+[2020-07-21 11:48:35.865 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5123].
+[2020-07-21 11:48:35.865 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5137].
+[2020-07-21 11:48:35.865 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5132].
+[2020-07-21 11:48:35.866 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5141].
+[2020-07-21 11:48:35.866 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5140].
+[2020-07-21 11:48:35.866 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5139].
+[2020-07-21 11:48:35.866 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5136].
+[2020-07-21 11:48:35.867 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5134].
+[2020-07-21 11:48:35.867 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5133].
+[2020-07-21 11:48:35.867 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5138].
+[2020-07-21 11:48:35.867 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5135].
+[2020-07-21 11:48:35.868 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5149].
+[2020-07-21 11:48:35.868 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5147].
+[2020-07-21 11:48:35.869 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5142].
+[2020-07-21 11:48:35.869 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5151].
+[2020-07-21 11:48:35.869 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5146].
+[2020-07-21 11:48:35.870 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5143].
+[2020-07-21 11:48:35.870 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5148].
+[2020-07-21 11:48:35.870 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5144].
+[2020-07-21 11:48:35.871 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5145].
+[2020-07-21 11:48:35.871 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5150].
+[2020-07-21 11:48:35.871 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5159].
+[2020-07-21 11:48:35.871 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5155].
+[2020-07-21 11:48:35.872 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5152].
+[2020-07-21 11:48:35.872 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5161].
+[2020-07-21 11:48:35.872 +08:00] [thread 489] [error] fdFVModelInit dbModel.strFeatur is empty, modelId is :5157
+[2020-07-21 11:48:35.872 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5154].
+[2020-07-21 11:48:35.873 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5156].
+[2020-07-21 11:48:35.873 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5153].
+[2020-07-21 11:48:35.873 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5160].
+[2020-07-21 11:48:35.874 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5158].
+[2020-07-21 11:48:35.874 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5171].
+[2020-07-21 11:48:35.874 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5170].
+[2020-07-21 11:48:35.874 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5165].
+[2020-07-21 11:48:35.875 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5163].
+[2020-07-21 11:48:35.875 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5162].
+[2020-07-21 11:48:35.875 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5167].
+[2020-07-21 11:48:35.875 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5164].
+[2020-07-21 11:48:35.875 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5169].
+[2020-07-21 11:48:35.876 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5168].
+[2020-07-21 11:48:35.876 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5166].
+[2020-07-21 11:48:35.876 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5173].
+[2020-07-21 11:48:35.876 +08:00] [thread 489] [error] fdFVModelInit dbModel.strFeatur is empty, modelId is :5172
+[2020-07-21 11:48:35.876 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5175].
+[2020-07-21 11:48:35.877 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5174].
+[2020-07-21 11:48:35.877 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5179].
+[2020-07-21 11:48:35.878 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5178].
+[2020-07-21 11:48:35.878 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5182].
+[2020-07-21 11:48:35.879 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5180].
+[2020-07-21 11:48:35.880 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5177].
+[2020-07-21 11:48:35.880 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5176].
+[2020-07-21 11:48:35.880 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5188].
+[2020-07-21 11:48:35.881 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5185].
+[2020-07-21 11:48:35.881 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5192].
+[2020-07-21 11:48:35.881 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5191].
+[2020-07-21 11:48:35.881 +08:00] [thread 489] [error] fdFVModelInit dbModel.strFeatur is empty, modelId is :5190
+[2020-07-21 11:48:35.881 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5184].
+[2020-07-21 11:48:35.882 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5186].
+[2020-07-21 11:48:35.882 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5189].
+[2020-07-21 11:48:35.882 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5183].
+[2020-07-21 11:48:35.882 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5187].
+[2020-07-21 11:48:35.883 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5198].
+[2020-07-21 11:48:35.883 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5195].
+[2020-07-21 11:48:35.883 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5200].
+[2020-07-21 11:48:35.884 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5197].
+[2020-07-21 11:48:35.884 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5203].
+[2020-07-21 11:48:35.884 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5194].
+[2020-07-21 11:48:35.884 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5193].
+[2020-07-21 11:48:35.885 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5196].
+[2020-07-21 11:48:35.885 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5199].
+[2020-07-21 11:48:35.885 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5201].
+[2020-07-21 11:48:35.885 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5207].
+[2020-07-21 11:48:35.886 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5204].
+[2020-07-21 11:48:35.886 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5211].
+[2020-07-21 11:48:35.886 +08:00] [thread 489] [error] fdFVModelInit dbModel.strFeatur is empty, modelId is :5209
+[2020-07-21 11:48:35.886 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5208].
+[2020-07-21 11:48:35.886 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5213].
+[2020-07-21 11:48:35.887 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5212].
+[2020-07-21 11:48:35.887 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5205].
+[2020-07-21 11:48:35.887 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5206].
+[2020-07-21 11:48:35.887 +08:00] [thread 489] [error] fdFVModelInit dbModel.strFeatur is empty, modelId is :5210
+[2020-07-21 11:48:35.887 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5215].
+[2020-07-21 11:48:35.888 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5214].
+[2020-07-21 11:48:35.888 +08:00] [thread 489] [error] fdFVModelInit dbModel.strFeatur is empty, modelId is :5221
+[2020-07-21 11:48:35.888 +08:00] [thread 489] [error] fdFVModelInit dbModel.strFeatur is empty, modelId is :5217
+[2020-07-21 11:48:35.888 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5216].
+[2020-07-21 11:48:35.888 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5223].
+[2020-07-21 11:48:35.889 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5220].
+[2020-07-21 11:48:35.889 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5222].
+[2020-07-21 11:48:35.889 +08:00] [thread 489] [error] fdFVModelInit dbModel.strFeatur is empty, modelId is :5218
+[2020-07-21 11:48:35.889 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5219].
+[2020-07-21 11:48:35.890 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5233].
+[2020-07-21 11:48:35.890 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5227].
+[2020-07-21 11:48:35.890 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5226].
+[2020-07-21 11:48:35.890 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5231].
+[2020-07-21 11:48:35.891 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5230].
+[2020-07-21 11:48:35.891 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5225].
+[2020-07-21 11:48:35.891 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5229].
+[2020-07-21 11:48:35.891 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5228].
+[2020-07-21 11:48:35.891 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5232].
+[2020-07-21 11:48:35.892 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5224].
+[2020-07-21 11:48:35.892 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5237].
+[2020-07-21 11:48:35.892 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5236].
+[2020-07-21 11:48:35.893 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5239].
+[2020-07-21 11:48:35.893 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5238].
+[2020-07-21 11:48:35.893 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5243].
+[2020-07-21 11:48:35.893 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5242].
+[2020-07-21 11:48:35.894 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5235].
+[2020-07-21 11:48:35.894 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5234].
+[2020-07-21 11:48:35.894 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5241].
+[2020-07-21 11:48:35.894 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5240].
+[2020-07-21 11:48:35.894 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5405].
+[2020-07-21 11:48:35.895 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5244].
+[2020-07-21 11:48:35.895 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5409].
+[2020-07-21 11:48:35.895 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5408].
+[2020-07-21 11:48:35.896 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5407].
+[2020-07-21 11:48:35.896 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5406].
+[2020-07-21 11:48:35.896 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5411].
+[2020-07-21 11:48:35.896 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5410].
+[2020-07-21 11:48:35.897 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5303].
+[2020-07-21 11:48:35.897 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5245].
+[2020-07-21 11:48:35.898 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5419].
+[2020-07-21 11:48:35.899 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5415].
+[2020-07-21 11:48:35.899 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5414].
+[2020-07-21 11:48:35.899 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5421].
+[2020-07-21 11:48:35.900 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5417].
+[2020-07-21 11:48:35.900 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5416].
+[2020-07-21 11:48:35.900 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5413].
+[2020-07-21 11:48:35.900 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5418].
+[2020-07-21 11:48:35.901 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5420].
+[2020-07-21 11:48:35.901 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5412].
+[2020-07-21 11:48:35.901 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5425].
+[2020-07-21 11:48:35.901 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5422].
+[2020-07-21 11:48:35.902 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5427].
+[2020-07-21 11:48:35.902 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5426].
+[2020-07-21 11:48:35.902 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5429].
+[2020-07-21 11:48:35.902 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5423].
+[2020-07-21 11:48:35.904 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5431].
+[2020-07-21 11:48:35.904 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5430].
+[2020-07-21 11:48:35.904 +08:00] [thread 489] [error] fdFVModelInit dbModel.strFeatur is empty, modelId is :5424
+[2020-07-21 11:48:35.904 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5428].
+[2020-07-21 11:48:35.905 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5606].
+[2020-07-21 11:48:35.905 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5432].
+[2020-07-21 11:48:35.905 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5806].
+[2020-07-21 11:48:35.905 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5605].
+[2020-07-21 11:48:35.906 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5808].
+[2020-07-21 11:48:35.906 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5433].
+[2020-07-21 11:48:35.906 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5810].
+[2020-07-21 11:48:35.906 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5807].
+[2020-07-21 11:48:35.907 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5805].
+[2020-07-21 11:48:35.907 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5809].
+[2020-07-21 11:48:35.907 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[6105].
+[2020-07-21 11:48:35.907 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[6008].
+[2020-07-21 11:48:35.908 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5812].
+[2020-07-21 11:48:35.908 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5811].
+[2020-07-21 11:48:35.909 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[6004].
+[2020-07-21 11:48:35.909 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[5813].
+[2020-07-21 11:48:35.909 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[6421].
+[2020-07-21 11:48:35.909 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[6307].
+[2020-07-21 11:48:35.910 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[6202].
+[2020-07-21 11:48:35.910 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[6106].
+[2020-07-21 11:48:35.911 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[6427].
+[2020-07-21 11:48:35.911 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[6422].
+[2020-07-21 11:48:35.911 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[7711].
+[2020-07-21 11:48:35.911 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[7310].
+[2020-07-21 11:48:35.912 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[7309].
+[2020-07-21 11:48:35.912 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[7608].
+[2020-07-21 11:48:35.913 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[7311].
+[2020-07-21 11:48:35.913 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[7308].
+[2020-07-21 11:48:35.913 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[7307].
+[2020-07-21 11:48:35.913 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[7708].
+[2020-07-21 11:48:35.914 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[8309].
+[2020-07-21 11:48:35.914 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[17367].
+[2020-07-21 11:48:35.914 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[17299].
+[2020-07-21 11:48:35.914 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[13807].
+[2020-07-21 11:48:35.915 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[17401].
+[2020-07-21 11:48:35.915 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[17400].
+[2020-07-21 11:48:35.915 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[14309].
+[2020-07-21 11:48:35.915 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[8309].
+[2020-07-21 11:48:35.916 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[13808].
+[2020-07-21 11:48:35.916 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[13607].
+[2020-07-21 11:48:35.916 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[17490].
+[2020-07-21 11:48:35.916 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[17479].
+[2020-07-21 11:48:35.917 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[17448].
+[2020-07-21 11:48:35.917 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[17433].
+[2020-07-21 11:48:35.917 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[17415].
+[2020-07-21 11:48:35.918 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[17513].
+[2020-07-21 11:48:35.918 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[17491].
+[2020-07-21 11:48:35.919 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[17464].
+[2020-07-21 11:48:35.919 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[17434].
+[2020-07-21 11:48:35.919 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[17463].
+[2020-07-21 11:48:35.920 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[17565].
+[2020-07-21 11:48:35.920 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[17556].
+[2020-07-21 11:48:35.921 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[17536].
+[2020-07-21 11:48:35.921 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[17523].
+[2020-07-21 11:48:35.921 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[17514].
+[2020-07-21 11:48:35.921 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[17554].
+[2020-07-21 11:48:35.921 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[17535].
+[2020-07-21 11:48:35.922 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[17572].
+[2020-07-21 11:48:35.922 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[17570].
+[2020-07-21 11:48:35.922 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[17544].
+[2020-07-21 11:48:35.922 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[17601].
+[2020-07-21 11:48:35.923 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[17583].
+[2020-07-21 11:48:35.923 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[17582].
+[2020-07-21 11:48:35.923 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[17607].
+[2020-07-21 11:48:35.923 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[17606].
+[2020-07-21 11:48:35.924 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[17593].
+[2020-07-21 11:48:35.924 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[17591].
+[2020-07-21 11:48:35.924 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[17707].
+[2020-07-21 11:48:35.925 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[17610].
+[2020-07-21 11:48:35.925 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[17600].
+[2020-07-21 11:48:35.925 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[17709].
+[2020-07-21 11:48:35.925 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[17708].
+[2020-07-21 11:48:35.926 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[17912].
+[2020-07-21 11:48:35.926 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[17911].
+[2020-07-21 11:48:35.926 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[18143].
+[2020-07-21 11:48:35.927 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[18139].
+[2020-07-21 11:48:35.927 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[18158].
+[2020-07-21 11:48:35.927 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[18157].
+[2020-07-21 11:48:35.927 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[18128].
+[2020-07-21 11:48:35.928 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[18131].
+[2020-07-21 11:48:35.928 +08:00] [thread 489] [error] fdFVModelInit dbModel.strFeatur is empty, modelId is :18162
+[2020-07-21 11:48:35.928 +08:00] [thread 489] [error] fdFVModelInit dbModel.strFeatur is empty, modelId is :18160
+[2020-07-21 11:48:35.928 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[18167].
+[2020-07-21 11:48:35.928 +08:00] [thread 489] [error] fdFVModelInit dbModel.strFeatur is empty, modelId is :18165
+[2020-07-21 11:48:35.928 +08:00] [thread 489] [info] fdFVModelInit register model with modelId[18168].
+[2020-07-21 11:48:35.928 +08:00] [thread 489] [error] fdFVModelInit dbModel.strFeatur is empty, modelId is :18177
+[2020-07-21 11:48:35.929 +08:00] [thread 489] [error] fdFVModelInit dbModel.strFeatur is empty, modelId is :18185
+[2020-07-21 11:48:35.929 +08:00] [thread 489] [error] fdFVModelInit dbModel.strFeatur is empty, modelId is :18186
+[2020-07-21 11:48:35.929 +08:00] [thread 489] [error] fdFVModelInit dbModel.strFeatur is empty, modelId is :18193
+[2020-07-21 11:48:35.929 +08:00] [thread 489] [error] fdFVModelInit dbModel.strFeatur is empty, modelId is :18187
+[2020-07-21 11:48:35.929 +08:00] [thread 489] [error] fdFVModelInit dbModel.strFeatur is empty, modelId is :18189
+[2020-07-21 11:48:35.929 +08:00] [thread 489] [error] fdFVModelInit dbModel.strFeatur is empty, modelId is :18200
+[2020-07-21 11:48:35.929 +08:00] [thread 489] [error] fdFVModelInit dbModel.strFeatur is empty, modelId is :18204
+[2020-07-21 11:48:38.646 +08:00] [thread 493] [error] fdFaceClientGetNeedApprove catch exception[write].
+[2020-07-21 11:48:38.646 +08:00] [thread 493] [error] fdSyncThreadRun approve AreaCode fail.
+[2020-07-21 11:48:38.731 +08:00] [thread 493] [error] fdFaceClientGetUserModel catch exception[write].
+[2020-07-21 11:48:38.731 +08:00] [thread 493] [error] fdSyncThreadRun add model fail.
+[2020-07-21 11:48:38.774 +08:00] [thread 493] [error] fdFaceClientGetUpdateModel catch exception[write].
+[2020-07-21 11:48:38.774 +08:00] [thread 493] [info] fdFaceClientGetUpdateModel userModelList size[0].
+[2020-07-21 11:48:38.775 +08:00] [thread 493] [error] fdSyncThreadRun update model fail.
+[2020-07-21 11:48:38.779 +08:00] [thread 493] [error] fdFaceClientGetDeleteModel catch exception[write].
+[2020-07-21 11:48:38.779 +08:00] [thread 493] [info] fdFaceClientGetDeleteModel guidList size[0].
+[2020-07-21 11:48:38.779 +08:00] [thread 493] [error] fdSyncThreadRun delete model fail.
+[2020-07-21 11:48:42.272 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.981201, blur is :0.609619, facade is :0.434444.
+[2020-07-21 11:48:42.272 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:48:42.889 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.991455, blur is :0.600586, facade is :0.506667.
+[2020-07-21 11:48:42.889 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:48:43.004 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.537598, blur is :0.311035, facade is :0.771963.
+[2020-07-21 11:48:43.004 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:48:45.797 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.940186, blur is :0.504639, facade is :0.472222.
+[2020-07-21 11:48:45.797 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:48:47.563 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.261719, blur is :0.144531, facade is :0.806914.
+[2020-07-21 11:48:47.563 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:48:53.458 +08:00] [thread 492] [error] fdCardReaderInit GetSAMStatus failed.
+[2020-07-21 11:48:53.459 +08:00] [thread 492] [warning] fdCardReaderThreadRun thread init failed.
+[2020-07-21 11:49:06.690 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.999023, blur is :0.473633, facade is :0.51037.
+[2020-07-21 11:49:06.691 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:49:07.307 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.270264, blur is :0.135498, facade is :0.888889.
+[2020-07-21 11:49:07.307 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:49:07.415 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.365234, blur is :0.050293, facade is :0.857532.
+[2020-07-21 11:49:07.415 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:49:07.557 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.257324, blur is :0.0285645, facade is :0.881939.
+[2020-07-21 11:49:07.557 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:49:08.470 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.971191, blur is :0.70874, facade is :0.407407.
+[2020-07-21 11:49:08.470 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:49:08.586 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.892334, blur is :0.482666, facade is :0.675997.
+[2020-07-21 11:49:08.587 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:49:08.735 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.950928, blur is :0.367432, facade is :0.796371.
+[2020-07-21 11:49:08.736 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:49:08.843 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.876221, blur is :0.334473, facade is :0.870884.
+[2020-07-21 11:49:08.843 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:49:13.637 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.615234, blur is :0.499268, facade is :0.470123.
+[2020-07-21 11:49:13.637 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:49:13.749 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.906738, blur is :0.511963, facade is :0.591982.
+[2020-07-21 11:49:13.749 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:49:13.897 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.527832, blur is :0.409668, facade is :0.863254.
+[2020-07-21 11:49:13.898 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:49:14.260 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.79248, blur is :0.56665, facade is :0.522716.
+[2020-07-21 11:49:14.260 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:49:15.350 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.796875, blur is :0.779785, facade is :0.515556.
+[2020-07-21 11:49:15.350 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:49:15.969 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.830322, blur is :0.813965, facade is :0.494074.
+[2020-07-21 11:49:15.969 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:49:16.084 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.678955, blur is :0.450195, facade is :0.763502.
+[2020-07-21 11:49:16.084 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:49:33.502 +08:00] [thread 496] [error] fdCSGetCmd GetDeviceConfigState catch exception[write].
+[2020-07-21 11:49:38.792 +08:00] [thread 493] [error] fdFaceClientGetNeedApprove catch exception[write].
+[2020-07-21 11:49:38.792 +08:00] [thread 493] [error] fdSyncThreadRun approve AreaCode fail.
+[2020-07-21 11:49:38.857 +08:00] [thread 493] [error] fdFaceClientGetUserModel catch exception[write].
+[2020-07-21 11:49:38.858 +08:00] [thread 493] [error] fdSyncThreadRun add model fail.
+[2020-07-21 11:49:38.903 +08:00] [thread 493] [error] fdFaceClientGetUpdateModel catch exception[write].
+[2020-07-21 11:49:38.903 +08:00] [thread 493] [info] fdFaceClientGetUpdateModel userModelList size[0].
+[2020-07-21 11:49:38.907 +08:00] [thread 493] [error] fdSyncThreadRun update model fail.
+[2020-07-21 11:49:38.912 +08:00] [thread 493] [error] fdFaceClientGetDeleteModel catch exception[write].
+[2020-07-21 11:49:38.913 +08:00] [thread 493] [info] fdFaceClientGetDeleteModel guidList size[0].
+[2020-07-21 11:49:38.913 +08:00] [thread 493] [error] fdSyncThreadRun delete model fail.
+[2020-07-21 11:50:24.280 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.942139, blur is :0.217529, facade is :0.746667.
+[2020-07-21 11:50:24.280 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:50:24.396 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.367676, blur is :0.287109, facade is :0.456826.
+[2020-07-21 11:50:24.396 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:50:24.902 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.285156, blur is :0.0593262, facade is :0.79.
+[2020-07-21 11:50:24.902 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:50:28.409 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.472656, blur is :0.0473633, facade is :0.858272.
+[2020-07-21 11:50:28.409 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:50:31.920 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.604736, facade is :0.456296.
+[2020-07-21 11:50:31.920 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:50:32.036 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.987061, blur is :0.224121, facade is :0.713415.
+[2020-07-21 11:50:32.036 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:50:33.050 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.963379, blur is :0.40625, facade is :0.513333.
+[2020-07-21 11:50:33.050 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:50:33.513 +08:00] [thread 496] [error] fdCSGetCmd GetDeviceConfigState catch exception[write].
+[2020-07-21 11:50:33.671 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.62915, facade is :0.52963.
+[2020-07-21 11:50:33.672 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:50:33.783 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.293945, blur is :0.226807, facade is :0.857014.
+[2020-07-21 11:50:33.783 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:50:34.879 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.828613, facade is :0.504815.
+[2020-07-21 11:50:34.880 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:50:34.994 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.998291, blur is :0.355469, facade is :0.764238.
+[2020-07-21 11:50:34.995 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:50:35.141 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.362549, facade is :0.771407.
+[2020-07-21 11:50:35.141 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:50:35.512 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.512939, blur is :0.0446777, facade is :0.64.
+[2020-07-21 11:50:35.513 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:50:37.198 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.45752, blur is :0.0500488, facade is :0.769383.
+[2020-07-21 11:50:37.198 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:50:38.298 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.901855, facade is :0.594815.
+[2020-07-21 11:50:38.298 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:50:38.415 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.459229, facade is :0.865549.
+[2020-07-21 11:50:38.415 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:50:38.559 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.540771, facade is :0.830874.
+[2020-07-21 11:50:38.559 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:50:38.676 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.770264, facade is :0.78297.
+[2020-07-21 11:50:38.756 +08:00] [thread 489] [info] fdFaceMin iWidth is:38
+[2020-07-21 11:50:38.756 +08:00] [thread 489] [warning] fdFaceMin range less than min!
+[2020-07-21 11:50:38.863 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.675049, facade is :0.810099.
+[2020-07-21 11:50:38.863 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:50:38.923 +08:00] [thread 493] [error] fdFaceClientGetNeedApprove catch exception[write].
+[2020-07-21 11:50:38.923 +08:00] [thread 493] [error] fdSyncThreadRun approve AreaCode fail.
+[2020-07-21 11:50:38.979 +08:00] [thread 493] [error] fdFaceClientGetUserModel catch exception[write].
+[2020-07-21 11:50:38.980 +08:00] [thread 493] [error] fdSyncThreadRun add model fail.
+[2020-07-21 11:50:39.027 +08:00] [thread 493] [error] fdFaceClientGetUpdateModel catch exception[write].
+[2020-07-21 11:50:39.027 +08:00] [thread 493] [info] fdFaceClientGetUpdateModel userModelList size[0].
+[2020-07-21 11:50:39.030 +08:00] [thread 493] [error] fdSyncThreadRun update model fail.
+[2020-07-21 11:50:39.035 +08:00] [thread 493] [error] fdFaceClientGetDeleteModel catch exception[write].
+[2020-07-21 11:50:39.036 +08:00] [thread 493] [info] fdFaceClientGetDeleteModel guidList size[0].
+[2020-07-21 11:50:39.036 +08:00] [thread 493] [error] fdSyncThreadRun delete model fail.
+[2020-07-21 11:50:39.041 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.639404, facade is :0.799183.
+[2020-07-21 11:50:39.041 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:50:39.154 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.713867, facade is :0.76463.
+[2020-07-21 11:50:39.231 +08:00] [thread 489] [info] fdFaceMin iWidth is:39
+[2020-07-21 11:50:39.231 +08:00] [thread 489] [warning] fdFaceMin range less than min!
+[2020-07-21 11:50:39.377 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.449951, facade is :0.851036.
+[2020-07-21 11:50:39.378 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:50:39.495 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.907715, blur is :0.642334, facade is :0.712853.
+[2020-07-21 11:50:39.495 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:50:39.607 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.986816, blur is :0.372559, facade is :0.913984.
+[2020-07-21 11:50:39.607 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:50:40.911 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.254639, blur is :0.315674, facade is :0.556173.
+[2020-07-21 11:50:40.911 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:50:43.023 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.987549, blur is :0.516357, facade is :0.894118.
+[2020-07-21 11:50:43.023 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:50:43.136 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.968994, blur is :0.669434, facade is :0.828531.
+[2020-07-21 11:50:43.136 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:50:43.776 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.990234, facade is :0.577778.
+[2020-07-21 11:50:43.776 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:50:43.894 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.819336, facade is :0.701518.
+[2020-07-21 11:50:43.966 +08:00] [thread 489] [info] fdFaceMin iWidth is:50
+[2020-07-21 11:50:43.966 +08:00] [thread 489] [warning] fdFaceMin range less than min!
+[2020-07-21 11:50:44.122 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.817139, facade is :0.64988.
+[2020-07-21 11:50:44.122 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:50:44.244 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.843994, facade is :0.636627.
+[2020-07-21 11:50:44.244 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:50:44.365 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.900391, facade is :0.643622.
+[2020-07-21 11:50:44.365 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:50:44.512 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.940674, facade is :0.681305.
+[2020-07-21 11:50:44.512 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:50:44.629 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.848877, facade is :0.632947.
+[2020-07-21 11:50:44.629 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:50:44.787 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.892578, facade is :0.63549.
+[2020-07-21 11:50:44.787 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:50:44.902 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.905762, facade is :0.650528.
+[2020-07-21 11:50:44.903 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:50:45.022 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.944336, facade is :0.638867.
+[2020-07-21 11:50:45.022 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:50:45.721 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.980957, facade is :0.572528.
+[2020-07-21 11:50:45.721 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:50:45.843 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.804199, facade is :0.71137.
+[2020-07-21 11:50:45.922 +08:00] [thread 489] [info] fdFaceMin iWidth is:53
+[2020-07-21 11:50:45.922 +08:00] [thread 489] [warning] fdFaceMin range less than min!
+[2020-07-21 11:50:46.072 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.861328, facade is :0.670607.
+[2020-07-21 11:50:46.073 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:50:46.187 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.937988, facade is :0.658148.
+[2020-07-21 11:50:46.187 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:50:46.301 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.863281, facade is :0.647474.
+[2020-07-21 11:50:46.301 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:50:46.454 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.866943, facade is :0.655446.
+[2020-07-21 11:50:46.454 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:50:46.576 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.943115, facade is :0.661962.
+[2020-07-21 11:50:46.576 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:50:46.727 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.914062, facade is :0.645934.
+[2020-07-21 11:50:46.727 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:50:46.839 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.927246, facade is :0.645749.
+[2020-07-21 11:50:46.839 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:50:46.958 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.936279, facade is :0.648427.
+[2020-07-21 11:50:46.958 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:50:47.662 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.875244, facade is :0.711539.
+[2020-07-21 11:50:47.737 +08:00] [thread 489] [info] fdFaceMin iWidth is:55
+[2020-07-21 11:50:47.737 +08:00] [thread 489] [warning] fdFaceMin range less than min!
+[2020-07-21 11:50:47.844 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.968994, facade is :0.668602.
+[2020-07-21 11:50:47.844 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:50:47.990 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.966553, facade is :0.670004.
+[2020-07-21 11:50:47.990 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:50:48.102 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.970703, facade is :0.659148.
+[2020-07-21 11:50:48.102 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:50:48.215 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.980957, facade is :0.657776.
+[2020-07-21 11:50:48.216 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:50:48.365 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.961182, facade is :0.656995.
+[2020-07-21 11:50:48.365 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:50:48.473 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.977783, facade is :0.665693.
+[2020-07-21 11:50:48.473 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:50:48.617 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.97876, facade is :0.678635.
+[2020-07-21 11:50:48.617 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:50:48.726 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.983154, facade is :0.660944.
+[2020-07-21 11:50:48.726 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:50:48.833 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.986572, facade is :0.656296.
+[2020-07-21 11:50:48.833 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:50:49.541 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.985107, facade is :0.678324.
+[2020-07-21 11:50:49.542 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:50:49.663 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.899658, facade is :0.644996.
+[2020-07-21 11:50:49.663 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:50:49.818 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.885986, facade is :0.621044.
+[2020-07-21 11:50:49.818 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:50:51.333 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.559814, facade is :0.666914.
+[2020-07-21 11:50:51.333 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:50:51.444 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.560059, facade is :0.824111.
+[2020-07-21 11:50:51.444 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:50:51.587 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.555908, facade is :0.806541.
+[2020-07-21 11:50:51.587 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:50:51.695 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.572754, facade is :0.824174.
+[2020-07-21 11:50:51.695 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:50:51.805 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.61499, facade is :0.806618.
+[2020-07-21 11:50:51.805 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:50:51.953 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.692383, facade is :0.797232.
+[2020-07-21 11:50:51.953 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:50:52.064 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.701416, facade is :0.797647.
+[2020-07-21 11:50:52.136 +08:00] [thread 489] [info] fdFaceMin iWidth is:42
+[2020-07-21 11:50:52.136 +08:00] [thread 489] [warning] fdFaceMin range less than min!
+[2020-07-21 11:50:52.282 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.632324, facade is :0.794945.
+[2020-07-21 11:50:52.282 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:50:52.392 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.569092, facade is :0.83596.
+[2020-07-21 11:50:52.393 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:50:52.504 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.745605, facade is :0.816192.
+[2020-07-21 11:50:52.579 +08:00] [thread 489] [info] fdFaceMin iWidth is:40
+[2020-07-21 11:50:52.579 +08:00] [thread 489] [warning] fdFaceMin range less than min!
+[2020-07-21 11:50:53.274 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.994141, facade is :0.540741.
+[2020-07-21 11:50:53.274 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:50:53.390 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.964844, facade is :0.721126.
+[2020-07-21 11:50:53.467 +08:00] [thread 489] [info] fdFaceMin iWidth is:54
+[2020-07-21 11:50:53.467 +08:00] [thread 489] [warning] fdFaceMin range less than min!
+[2020-07-21 11:50:53.618 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.955322, facade is :0.715505.
+[2020-07-21 11:50:53.694 +08:00] [thread 489] [info] fdFaceMin iWidth is:52
+[2020-07-21 11:50:53.694 +08:00] [thread 489] [warning] fdFaceMin range less than min!
+[2020-07-21 11:50:53.819 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.961182, facade is :0.702079.
+[2020-07-21 11:50:53.887 +08:00] [thread 489] [info] fdFaceMin iWidth is:53
+[2020-07-21 11:50:53.887 +08:00] [thread 489] [warning] fdFaceMin range less than min!
+[2020-07-21 11:50:53.999 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.946777, facade is :0.651784.
+[2020-07-21 11:50:53.999 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:50:54.159 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.899414, facade is :0.659908.
+[2020-07-21 11:50:54.159 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:50:54.291 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.886963, facade is :0.649759.
+[2020-07-21 11:50:54.291 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:50:54.453 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.998047, blur is :0.79248, facade is :0.588184.
+[2020-07-21 11:50:54.453 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:50:54.577 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.865723, facade is :0.798343.
+[2020-07-21 11:50:54.654 +08:00] [thread 489] [info] fdFaceMin iWidth is:38
+[2020-07-21 11:50:54.654 +08:00] [thread 489] [warning] fdFaceMin range less than min!
+[2020-07-21 11:50:54.764 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.922607, facade is :0.799293.
+[2020-07-21 11:50:54.839 +08:00] [thread 489] [info] fdFaceMin iWidth is:38
+[2020-07-21 11:50:54.839 +08:00] [thread 489] [warning] fdFaceMin range less than min!
+[2020-07-21 11:50:55.575 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.907227, facade is :0.785757.
+[2020-07-21 11:50:55.646 +08:00] [thread 489] [info] fdFaceMin iWidth is:38
+[2020-07-21 11:50:55.646 +08:00] [thread 489] [warning] fdFaceMin range less than min!
+[2020-07-21 11:50:55.754 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.861084, facade is :0.820948.
+[2020-07-21 11:50:55.830 +08:00] [thread 489] [info] fdFaceMin iWidth is:38
+[2020-07-21 11:50:55.831 +08:00] [thread 489] [warning] fdFaceMin range less than min!
+[2020-07-21 11:50:55.982 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.823242, facade is :0.826275.
+[2020-07-21 11:50:56.055 +08:00] [thread 489] [info] fdFaceMin iWidth is:38
+[2020-07-21 11:50:56.055 +08:00] [thread 489] [warning] fdFaceMin range less than min!
+[2020-07-21 11:50:56.163 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.871582, facade is :0.814217.
+[2020-07-21 11:50:56.233 +08:00] [thread 489] [info] fdFaceMin iWidth is:38
+[2020-07-21 11:50:56.233 +08:00] [thread 489] [warning] fdFaceMin range less than min!
+[2020-07-21 11:50:56.343 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.902588, facade is :0.8042.
+[2020-07-21 11:50:56.415 +08:00] [thread 489] [info] fdFaceMin iWidth is:38
+[2020-07-21 11:50:56.415 +08:00] [thread 489] [warning] fdFaceMin range less than min!
+[2020-07-21 11:50:56.574 +08:00] [thread 489] [info] fdRSScan IRRes check pitch is :1, blur is :0.928223, facade is :0.792224.
+[2020-07-21 11:50:56.649 +08:00] [thread 489] [error] Insufficient overlap between normal and infrared images.
+[2020-07-21 11:50:56.763 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.72583, facade is :0.801539.
+[2020-07-21 11:50:56.834 +08:00] [thread 489] [info] fdFaceMin iWidth is:38
+[2020-07-21 11:50:56.834 +08:00] [thread 489] [warning] fdFaceMin range less than min!
+[2020-07-21 11:50:56.981 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.996094, blur is :0.424561, facade is :0.693291.
+[2020-07-21 11:50:56.981 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:50:57.100 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.959961, blur is :0.386475, facade is :0.554415.
+[2020-07-21 11:50:57.100 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:50:59.719 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.995117, facade is :0.539012.
+[2020-07-21 11:50:59.719 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:50:59.840 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.976074, facade is :0.693335.
+[2020-07-21 11:50:59.840 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:50:59.987 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.968262, facade is :0.717792.
+[2020-07-21 11:51:00.061 +08:00] [thread 489] [info] fdFaceMin iWidth is:52
+[2020-07-21 11:51:00.061 +08:00] [thread 489] [warning] fdFaceMin range less than min!
+[2020-07-21 11:51:00.177 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.981201, facade is :0.756087.
+[2020-07-21 11:51:00.257 +08:00] [thread 489] [info] fdFaceMin iWidth is:52
+[2020-07-21 11:51:00.258 +08:00] [thread 489] [warning] fdFaceMin range less than min!
+[2020-07-21 11:51:00.363 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.986572, facade is :0.768941.
+[2020-07-21 11:51:00.448 +08:00] [thread 489] [info] fdFaceMin iWidth is:54
+[2020-07-21 11:51:00.449 +08:00] [thread 489] [warning] fdFaceMin range less than min!
+[2020-07-21 11:51:00.602 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.9729, facade is :0.730132.
+[2020-07-21 11:51:00.675 +08:00] [thread 489] [info] fdFaceMin iWidth is:53
+[2020-07-21 11:51:00.675 +08:00] [thread 489] [warning] fdFaceMin range less than min!
+[2020-07-21 11:51:00.789 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.972412, facade is :0.727721.
+[2020-07-21 11:51:00.867 +08:00] [thread 489] [info] fdFaceMin iWidth is:51
+[2020-07-21 11:51:00.867 +08:00] [thread 489] [warning] fdFaceMin range less than min!
+[2020-07-21 11:51:01.013 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.976074, facade is :0.728258.
+[2020-07-21 11:51:01.092 +08:00] [thread 489] [error] Insufficient overlap between normal and infrared images.
+[2020-07-21 11:51:01.204 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.968262, facade is :0.708804.
+[2020-07-21 11:51:01.276 +08:00] [thread 489] [info] fdFaceMin iWidth is:55
+[2020-07-21 11:51:01.276 +08:00] [thread 489] [warning] fdFaceMin range less than min!
+[2020-07-21 11:51:01.385 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.954102, facade is :0.621696.
+[2020-07-21 11:51:01.385 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:51:03.043 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.965576, blur is :0.42749, facade is :0.581297.
+[2020-07-21 11:51:03.043 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:51:03.842 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.370361, blur is :0.0839844, facade is :0.808025.
+[2020-07-21 11:51:03.842 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:51:07.920 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.450195, blur is :0.259277, facade is :0.608395.
+[2020-07-21 11:51:07.920 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:51:10.769 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.268066, blur is :0.284668, facade is :0.658025.
+[2020-07-21 11:51:10.769 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:51:11.389 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.336426, blur is :0.244629, facade is :0.61.
+[2020-07-21 11:51:11.389 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:51:18.297 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.284424, blur is :0.156738, facade is :0.712963.
+[2020-07-21 11:51:18.297 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:51:19.388 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.476562, blur is :0.123779, facade is :0.79.
+[2020-07-21 11:51:19.389 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:51:26.273 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.260742, blur is :0.169922, facade is :0.81.
+[2020-07-21 11:51:26.273 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:51:26.894 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.633789, blur is :0.333252, facade is :0.594321.
+[2020-07-21 11:51:26.894 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:51:27.007 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.931641, blur is :0.412109, facade is :0.402484.
+[2020-07-21 11:51:27.007 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:51:27.153 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.557373, blur is :0.303467, facade is :0.463211.
+[2020-07-21 11:51:27.153 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:51:27.262 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.978027, blur is :0.207764, facade is :0.76547.
+[2020-07-21 11:51:27.262 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:51:27.373 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.918213, blur is :0.298584, facade is :0.71193.
+[2020-07-21 11:51:27.373 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:51:31.557 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.78418, blur is :0.371338, facade is :0.703457.
+[2020-07-21 11:51:31.557 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:51:31.664 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.950439, blur is :0.270996, facade is :0.768693.
+[2020-07-21 11:51:31.664 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:51:31.812 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.570068, blur is :0.31543, facade is :0.851905.
+[2020-07-21 11:51:31.812 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:51:31.926 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.453613, blur is :0.213867, facade is :0.831723.
+[2020-07-21 11:51:31.926 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:51:32.199 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.758057, blur is :0.078125, facade is :0.816296.
+[2020-07-21 11:51:32.199 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:51:33.523 +08:00] [thread 496] [error] fdCSGetCmd GetDeviceConfigState catch exception[write].
+[2020-07-21 11:51:34.355 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.808594, blur is :0.58374, facade is :0.657155.
+[2020-07-21 11:51:34.355 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:51:34.463 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.373291, blur is :0.331543, facade is :0.690276.
+[2020-07-21 11:51:34.463 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:51:35.734 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.966553, blur is :0.0637207, facade is :0.848518.
+[2020-07-21 11:51:35.734 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:51:36.844 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.998291, blur is :0.433105, facade is :0.61358.
+[2020-07-21 11:51:36.844 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:51:37.472 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.98877, blur is :0.320312, facade is :0.674074.
+[2020-07-21 11:51:37.472 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:51:37.583 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.624023, blur is :0.405029, facade is :0.622265.
+[2020-07-21 11:51:37.583 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:51:38.644 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.997314, blur is :0.418213, facade is :0.630864.
+[2020-07-21 11:51:38.644 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:51:38.753 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.619629, blur is :0.337646, facade is :0.586389.
+[2020-07-21 11:51:38.754 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:51:39.042 +08:00] [thread 493] [error] fdFaceClientGetNeedApprove catch exception[write].
+[2020-07-21 11:51:39.042 +08:00] [thread 493] [error] fdSyncThreadRun approve AreaCode fail.
+[2020-07-21 11:51:39.099 +08:00] [thread 493] [error] fdFaceClientGetUserModel catch exception[write].
+[2020-07-21 11:51:39.099 +08:00] [thread 493] [error] fdSyncThreadRun add model fail.
+[2020-07-21 11:51:39.136 +08:00] [thread 493] [error] fdFaceClientGetUpdateModel catch exception[write].
+[2020-07-21 11:51:39.136 +08:00] [thread 493] [info] fdFaceClientGetUpdateModel userModelList size[0].
+[2020-07-21 11:51:39.138 +08:00] [thread 493] [error] fdSyncThreadRun update model fail.
+[2020-07-21 11:51:39.141 +08:00] [thread 493] [error] fdFaceClientGetDeleteModel catch exception[write].
+[2020-07-21 11:51:39.142 +08:00] [thread 493] [info] fdFaceClientGetDeleteModel guidList size[0].
+[2020-07-21 11:51:39.142 +08:00] [thread 493] [error] fdSyncThreadRun delete model fail.
+[2020-07-21 11:51:39.268 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.998779, blur is :0.421631, facade is :0.577778.
+[2020-07-21 11:51:39.268 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:51:39.383 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.456543, blur is :0.363281, facade is :0.559463.
+[2020-07-21 11:51:39.383 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:51:39.644 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.81543, blur is :0.314697, facade is :0.809575.
+[2020-07-21 11:51:39.645 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:51:39.753 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.345947, blur is :0.195801, facade is :0.706676.
+[2020-07-21 11:51:39.753 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:51:40.439 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.225342, facade is :0.64.
+[2020-07-21 11:51:40.439 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:51:40.553 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.343506, blur is :0.169922, facade is :0.587594.
+[2020-07-21 11:51:40.553 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:51:40.700 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.438965, blur is :0.260742, facade is :0.542215.
+[2020-07-21 11:51:40.700 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:51:40.817 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.278564, blur is :0.308105, facade is :0.834587.
+[2020-07-21 11:51:40.817 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:51:41.079 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.997314, blur is :0.381104, facade is :0.586667.
+[2020-07-21 11:51:41.079 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:51:41.193 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.332275, blur is :0.283203, facade is :0.838424.
+[2020-07-21 11:51:41.193 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:51:41.458 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.427734, blur is :0.320312, facade is :0.575427.
+[2020-07-21 11:51:41.458 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:51:42.280 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.666992, blur is :0.0458984, facade is :0.87.
+[2020-07-21 11:51:42.280 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:51:47.504 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.986328, blur is :0.688965, facade is :0.492593.
+[2020-07-21 11:51:47.504 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:51:48.119 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.991455, blur is :0.753174, facade is :0.397037.
+[2020-07-21 11:51:48.119 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:51:49.228 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.994629, blur is :0.569824, facade is :0.401235.
+[2020-07-21 11:51:49.229 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:51:49.345 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.385254, blur is :0.227539, facade is :0.7643.
+[2020-07-21 11:51:49.345 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:51:49.846 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.999756, blur is :0.669678, facade is :0.70321.
+[2020-07-21 11:51:49.846 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:51:49.953 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.549805, facade is :0.836717.
+[2020-07-21 11:51:49.953 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:51:50.098 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.548828, facade is :0.861521.
+[2020-07-21 11:51:50.098 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:51:50.215 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.613525, facade is :0.862654.
+[2020-07-21 11:51:50.215 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:51:50.323 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.58667, facade is :0.867313.
+[2020-07-21 11:51:50.323 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:51:50.970 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.999023, blur is :0.650146, facade is :0.759259.
+[2020-07-21 11:51:50.970 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:51:51.083 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.732422, facade is :0.7981.
+[2020-07-21 11:51:51.157 +08:00] [thread 489] [info] fdFaceMin iWidth is:41
+[2020-07-21 11:51:51.157 +08:00] [thread 489] [warning] fdFaceMin range less than min!
+[2020-07-21 11:51:51.299 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.773682, facade is :0.807788.
+[2020-07-21 11:51:51.371 +08:00] [thread 489] [info] fdFaceMin iWidth is:40
+[2020-07-21 11:51:51.371 +08:00] [thread 489] [warning] fdFaceMin range less than min!
+[2020-07-21 11:51:51.483 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.620605, facade is :0.806655.
+[2020-07-21 11:51:51.483 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:51:51.593 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.998535, blur is :0.662598, facade is :0.796264.
+[2020-07-21 11:51:51.593 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:51:51.739 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.999756, blur is :0.727783, facade is :0.742314.
+[2020-07-21 11:51:51.818 +08:00] [thread 489] [info] fdFaceMin iWidth is:45
+[2020-07-21 11:51:51.819 +08:00] [thread 489] [warning] fdFaceMin range less than min!
+[2020-07-21 11:51:51.939 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.999756, blur is :0.671875, facade is :0.764212.
+[2020-07-21 11:51:51.939 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:51:52.093 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.830322, facade is :0.790745.
+[2020-07-21 11:51:52.170 +08:00] [thread 489] [info] fdFaceMin iWidth is:40
+[2020-07-21 11:51:52.170 +08:00] [thread 489] [warning] fdFaceMin range less than min!
+[2020-07-21 11:51:52.283 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.865479, facade is :0.786279.
+[2020-07-21 11:51:52.357 +08:00] [thread 489] [info] fdFaceMin iWidth is:39
+[2020-07-21 11:51:52.358 +08:00] [thread 489] [warning] fdFaceMin range less than min!
+[2020-07-21 11:51:52.466 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.557129, facade is :0.804151.
+[2020-07-21 11:51:52.466 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:51:53.147 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.473877, facade is :0.812583.
+[2020-07-21 11:51:53.147 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:51:53.262 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.657959, facade is :0.824726.
+[2020-07-21 11:51:53.262 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:51:53.412 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.737793, facade is :0.811869.
+[2020-07-21 11:51:53.492 +08:00] [thread 489] [info] fdFaceMin iWidth is:40
+[2020-07-21 11:51:53.492 +08:00] [thread 489] [warning] fdFaceMin range less than min!
+[2020-07-21 11:51:53.602 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.764404, facade is :0.855051.
+[2020-07-21 11:51:53.673 +08:00] [thread 489] [info] fdFaceMin iWidth is:41
+[2020-07-21 11:51:53.673 +08:00] [thread 489] [warning] fdFaceMin range less than min!
+[2020-07-21 11:51:53.784 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.591553, facade is :0.872652.
+[2020-07-21 11:51:53.785 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:51:53.928 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.566406, facade is :0.85195.
+[2020-07-21 11:51:53.928 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:51:54.033 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.760498, facade is :0.819974.
+[2020-07-21 11:51:54.110 +08:00] [thread 489] [info] fdFaceMin iWidth is:41
+[2020-07-21 11:51:54.110 +08:00] [thread 489] [warning] fdFaceMin range less than min!
+[2020-07-21 11:51:54.258 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.690674, facade is :0.823738.
+[2020-07-21 11:51:54.258 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:51:54.375 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.730469, facade is :0.827279.
+[2020-07-21 11:51:54.450 +08:00] [thread 489] [info] fdFaceMin iWidth is:41
+[2020-07-21 11:51:54.450 +08:00] [thread 489] [warning] fdFaceMin range less than min!
+[2020-07-21 11:51:54.562 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.765381, facade is :0.825328.
+[2020-07-21 11:51:54.633 +08:00] [thread 489] [info] fdFaceMin iWidth is:41
+[2020-07-21 11:51:54.633 +08:00] [thread 489] [warning] fdFaceMin range less than min!
+[2020-07-21 11:51:55.273 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.736084, facade is :0.825253.
+[2020-07-21 11:51:55.344 +08:00] [thread 489] [info] fdFaceMin iWidth is:40
+[2020-07-21 11:51:55.344 +08:00] [thread 489] [warning] fdFaceMin range less than min!
+[2020-07-21 11:51:55.454 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.968262, blur is :0.318604, facade is :0.928428.
+[2020-07-21 11:51:55.454 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:51:56.338 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.446045, blur is :0.237061, facade is :0.749641.
+[2020-07-21 11:51:56.338 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:51:57.124 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.998291, blur is :0.683594, facade is :0.394568.
+[2020-07-21 11:51:57.124 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:51:57.240 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.363525, blur is :0.298584, facade is :0.810891.
+[2020-07-21 11:51:57.240 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:51:57.394 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.973389, blur is :0.388916, facade is :0.741775.
+[2020-07-21 11:51:57.394 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:51:57.512 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.997314, blur is :0.335938, facade is :0.767918.
+[2020-07-21 11:51:57.513 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:51:57.633 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.396484, facade is :0.795969.
+[2020-07-21 11:51:57.633 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:51:57.796 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.993896, blur is :0.39917, facade is :0.806732.
+[2020-07-21 11:51:57.796 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:51:57.912 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.19458, facade is :0.836167.
+[2020-07-21 11:51:57.912 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:51:58.062 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.42627, facade is :0.868735.
+[2020-07-21 11:51:58.062 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:51:58.182 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.474854, facade is :0.858164.
+[2020-07-21 11:51:58.183 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:51:58.305 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.507568, facade is :0.806405.
+[2020-07-21 11:51:58.305 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:51:59.037 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.639893, facade is :0.837963.
+[2020-07-21 11:51:59.037 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:51:59.151 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.99707, blur is :0.298828, facade is :0.48032.
+[2020-07-21 11:51:59.151 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:51:59.307 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.996582, blur is :0.270996, facade is :0.727274.
+[2020-07-21 11:51:59.307 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:51:59.416 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.335205, blur is :0.236328, facade is :0.83976.
+[2020-07-21 11:51:59.416 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:51:59.523 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.775146, blur is :0.236816, facade is :0.790751.
+[2020-07-21 11:51:59.523 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:51:59.675 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.981689, blur is :0.263428, facade is :0.639877.
+[2020-07-21 11:51:59.675 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:51:59.786 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.710449, blur is :0.184082, facade is :0.831046.
+[2020-07-21 11:51:59.786 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:51:59.932 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.380371, blur is :0.212402, facade is :0.878648.
+[2020-07-21 11:51:59.932 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:52:00.043 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.391113, blur is :0.215332, facade is :0.82206.
+[2020-07-21 11:52:00.043 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:52:00.155 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.469727, blur is :0.253662, facade is :0.887113.
+[2020-07-21 11:52:00.155 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:52:00.878 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.272949, blur is :0.241211, facade is :0.862392.
+[2020-07-21 11:52:00.878 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:52:01.260 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.477295, facade is :0.810055.
+[2020-07-21 11:52:01.260 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:52:01.378 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.934814, facade is :0.965711.
+[2020-07-21 11:52:01.454 +08:00] [thread 489] [info] fdFaceMin iWidth is:37
+[2020-07-21 11:52:01.454 +08:00] [thread 489] [warning] fdFaceMin range less than min!
+[2020-07-21 11:52:01.601 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.981445, facade is :0.942354.
+[2020-07-21 11:52:01.677 +08:00] [thread 489] [info] fdFaceMin iWidth is:34
+[2020-07-21 11:52:01.677 +08:00] [thread 489] [warning] fdFaceMin range less than min!
+[2020-07-21 11:52:01.786 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.901367, facade is :0.928081.
+[2020-07-21 11:52:01.857 +08:00] [thread 489] [info] fdFaceMin iWidth is:34
+[2020-07-21 11:52:01.857 +08:00] [thread 489] [warning] fdFaceMin range less than min!
+[2020-07-21 11:52:04.587 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.262939, blur is :0.253906, facade is :0.89.
+[2020-07-21 11:52:04.588 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:52:04.709 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.458984, blur is :0.414551, facade is :0.81738.
+[2020-07-21 11:52:04.709 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:52:13.319 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.750732, blur is :0.19873, facade is :0.721728.
+[2020-07-21 11:52:13.319 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:52:15.692 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.364258, blur is :0.132324, facade is :0.66321.
+[2020-07-21 11:52:15.692 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:52:16.785 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.476562, blur is :0.175537, facade is :0.682716.
+[2020-07-21 11:52:16.785 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:52:19.099 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.392822, blur is :0.154785, facade is :0.89.
+[2020-07-21 11:52:19.099 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:52:19.213 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.250244, blur is :0.0927734, facade is :0.835446.
+[2020-07-21 11:52:19.213 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:52:21.980 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.588135, facade is :0.592593.
+[2020-07-21 11:52:21.980 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:52:22.354 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.970459, facade is :0.769333.
+[2020-07-21 11:52:22.437 +08:00] [thread 489] [info] fdFaceMin iWidth is:56
+[2020-07-21 11:52:22.437 +08:00] [thread 489] [warning] fdFaceMin range less than min!
+[2020-07-21 11:52:22.544 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.98877, facade is :0.780364.
+[2020-07-21 11:52:22.631 +08:00] [thread 489] [info] fdFaceMin iWidth is:57
+[2020-07-21 11:52:22.631 +08:00] [thread 489] [warning] fdFaceMin range less than min!
+[2020-07-21 11:52:22.779 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.952637, facade is :0.905419.
+[2020-07-21 11:52:22.852 +08:00] [thread 489] [info] fdFaceMin iWidth is:57
+[2020-07-21 11:52:22.852 +08:00] [thread 489] [warning] fdFaceMin range less than min!
+[2020-07-21 11:52:22.970 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.991455, facade is :0.944725.
+[2020-07-21 11:52:23.044 +08:00] [thread 489] [info] fdFaceMin iWidth is:59
+[2020-07-21 11:52:23.045 +08:00] [thread 489] [warning] fdFaceMin range less than min!
+[2020-07-21 11:52:23.191 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.98291, facade is :0.907029.
+[2020-07-21 11:52:23.267 +08:00] [thread 489] [info] fdFaceMin iWidth is:56
+[2020-07-21 11:52:23.267 +08:00] [thread 489] [warning] fdFaceMin range less than min!
+[2020-07-21 11:52:23.374 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.948486, facade is :0.80311.
+[2020-07-21 11:52:23.449 +08:00] [thread 489] [info] fdFaceMin iWidth is:57
+[2020-07-21 11:52:23.449 +08:00] [thread 489] [warning] fdFaceMin range less than min!
+[2020-07-21 11:52:23.570 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.998779, facade is :0.662917.
+[2020-07-21 11:52:23.570 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:52:24.275 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.998779, facade is :0.668383.
+[2020-07-21 11:52:24.275 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:52:24.387 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.996582, facade is :0.799748.
+[2020-07-21 11:52:24.463 +08:00] [thread 489] [info] fdFaceMin iWidth is:61
+[2020-07-21 11:52:24.463 +08:00] [thread 489] [warning] fdFaceMin range less than min!
+[2020-07-21 11:52:24.614 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.846924, blur is :0.470703, facade is :0.661943.
+[2020-07-21 11:52:24.614 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:52:24.729 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.727539, facade is :0.890985.
+[2020-07-21 11:52:24.803 +08:00] [thread 489] [info] fdFaceMin iWidth is:67
+[2020-07-21 11:52:24.803 +08:00] [thread 489] [warning] fdFaceMin range less than min!
+[2020-07-21 11:52:24.915 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.43335, blur is :0.60083, facade is :0.654666.
+[2020-07-21 11:52:24.915 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:52:25.061 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.880615, facade is :0.736296.
+[2020-07-21 11:52:25.135 +08:00] [thread 489] [info] fdFaceMin iWidth is:49
+[2020-07-21 11:52:25.135 +08:00] [thread 489] [warning] fdFaceMin range less than min!
+[2020-07-21 11:52:25.503 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.743164, facade is :0.707026.
+[2020-07-21 11:52:25.576 +08:00] [thread 489] [info] fdFaceMin iWidth is:48
+[2020-07-21 11:52:25.576 +08:00] [thread 489] [warning] fdFaceMin range less than min!
+[2020-07-21 11:52:25.686 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.49292, facade is :0.591456.
+[2020-07-21 11:52:25.686 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:52:27.295 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.924805, facade is :0.69975.
+[2020-07-21 11:52:27.295 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:52:27.407 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.880371, facade is :0.728001.
+[2020-07-21 11:52:27.482 +08:00] [thread 489] [info] fdFaceMin iWidth is:70
+[2020-07-21 11:52:27.482 +08:00] [thread 489] [warning] fdFaceMin range less than min!
+[2020-07-21 11:52:28.157 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.959229, blur is :0.367188, facade is :0.506667.
+[2020-07-21 11:52:28.158 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:52:33.532 +08:00] [thread 496] [error] fdCSGetCmd GetDeviceConfigState catch exception[write].
+[2020-07-21 11:52:39.153 +08:00] [thread 493] [error] fdFaceClientGetNeedApprove catch exception[write].
+[2020-07-21 11:52:39.153 +08:00] [thread 493] [error] fdSyncThreadRun approve AreaCode fail.
+[2020-07-21 11:52:39.214 +08:00] [thread 493] [error] fdFaceClientGetUserModel catch exception[write].
+[2020-07-21 11:52:39.215 +08:00] [thread 493] [error] fdSyncThreadRun add model fail.
+[2020-07-21 11:52:39.262 +08:00] [thread 493] [error] fdFaceClientGetUpdateModel catch exception[write].
+[2020-07-21 11:52:39.262 +08:00] [thread 493] [info] fdFaceClientGetUpdateModel userModelList size[0].
+[2020-07-21 11:52:39.263 +08:00] [thread 493] [error] fdSyncThreadRun update model fail.
+[2020-07-21 11:52:39.266 +08:00] [thread 493] [error] fdFaceClientGetDeleteModel catch exception[write].
+[2020-07-21 11:52:39.266 +08:00] [thread 493] [info] fdFaceClientGetDeleteModel guidList size[0].
+[2020-07-21 11:52:39.267 +08:00] [thread 493] [error] fdSyncThreadRun delete model fail.
+[2020-07-21 11:53:22.737 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.999756, blur is :0.788818, facade is :0.615309.
+[2020-07-21 11:53:22.737 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 11:53:22.846 +08:00] [thread 489] [info] fdRSScan CLRRes check fPitch is :0.999023, blur is :0.658447, facade is :0.622022.
+[2020-07-21 11:53:22.846 +08:00] [thread 489] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!

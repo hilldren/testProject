@@ -1,0 +1,575 @@
+[2020-07-21 14:48:23.016 +08:00] [thread 356] [info] ReadSenseInit success!
+[2020-07-21 14:48:23.016 +08:00] [thread 356] [info] fdAlgoAdaptInit RS algo init success!
+[2020-07-21 14:48:23.016 +08:00] [thread 356] [info] faceDetect begin to run version v5.5.3.0714.
+[2020-07-21 14:48:23.019 +08:00] [thread 356] [info] fdReadLicense read license[/mnt/mtd/nsd/ai/camera/license] OK! fileLen[64]
+[2020-07-21 14:48:23.019 +08:00] [thread 356] [info] fdReadLicense pLicSize[64].
+[2020-07-21 14:48:23.021 +08:00] [thread 356] [info] fdReadLicense decrypt success!
+[2020-07-21 14:48:23.021 +08:00] [thread 356] [info] fdReadNode find node[MAC] iNodeStart[7]!
+[2020-07-21 14:48:23.022 +08:00] [thread 356] [info] fdCheckSingleMac mac[00:0c:29:09:e1:77].
+[2020-07-21 14:48:23.022 +08:00] [thread 356] [info] fdCheckMacs mac validate ok!
+[2020-07-21 14:48:23.022 +08:00] [thread 356] [info] fdReadNode find node[Date] iNodeStart[36]!
+[2020-07-21 14:48:23.022 +08:00] [thread 356] [info] fdCheckDate system date is 2020-07-21.
+[2020-07-21 14:48:23.022 +08:00] [thread 356] [info] fdCheckDate system date validate OK.
+[2020-07-21 14:48:23.025 +08:00] [thread 356] [info] fdFtpInit init success!
+[2020-07-21 14:48:23.043 +08:00] [thread 356] [info] fdDbInit opened database successfully.
+[2020-07-21 14:48:23.106 +08:00] [thread 356] [info] fdDbInit init OK.
+[2020-07-21 14:48:23.420 +08:00] [thread 356] [info] fdQrEnccode qrcode has generated in /mnt/mtd/nsd/ai/camera/qrImg/openDoor
+[2020-07-21 14:48:23.423 +08:00] [thread 356] [info] fdFaceClientCreate no screen server addr :http://192.168.1.133:2240/.
+[2020-07-21 14:48:23.423 +08:00] [thread 356] [info] fdFaceClientCreate hprose server addr :http://192.168.1.132:7569/.
+[2020-07-21 14:48:23.423 +08:00] [thread 485] [info] fdHproseThreadRun start success!!
+[2020-07-21 14:48:23.424 +08:00] [thread 356] [info] faceDetect init ok.
+[2020-07-21 14:48:23.424 +08:00] [thread 490] [info] fdMonitorInit hprose server addr :http://192.168.1.133:9990/.
+[2020-07-21 14:48:23.425 +08:00] [thread 484] [info] fdFaceThreadRun thread start.
+[2020-07-21 14:48:23.426 +08:00] [thread 488] [info] fdSyncThreadRun start success!
+[2020-07-21 14:48:23.427 +08:00] [thread 491] [info] fdConfSetInit hprose server addr :http://192.168.1.133:2240/.
+[2020-07-21 14:48:23.435 +08:00] [thread 489] [info] fdSocketThreadRun thread start success!!
+[2020-07-21 14:48:23.435 +08:00] [thread 489] [info] CListenerImpl::OnPrepareConnect socket[1] prepare connect.
+[2020-07-21 14:48:23.439 +08:00] [thread 489] [info] fdSockStart start connection:1.
+[2020-07-21 14:48:23.450 +08:00] [thread 492] [info] CListenerImpl::OnConnect socket[1] connected.
+[2020-07-21 14:48:23.450 +08:00] [thread 492] [info] CListenerImpl::OnHandShake socket[1] hand shake.
+[2020-07-21 14:48:23.450 +08:00] [thread 492] [info] CListenerImpl::OnSend socket[1] send msg success with length:58.
+[2020-07-21 14:48:23.486 +08:00] [thread 492] [info] CListenerImpl::OnReceive socket[1] receive msg[@@4C62C001-E95A-4D9B-953A-A7A5909E7694$RegDev$0$**] iLength[50].
+[2020-07-21 14:48:23.486 +08:00] [thread 492] [info] fdSockMsgDecode msgBuff: @@4C62C001-E95A-4D9B-953A-A7A5909E7694$RegDev$0$**.
+[2020-07-21 14:48:23.486 +08:00] [thread 492] [info] fdSockMsgDecode msgBuff after decode: .
+[2020-07-21 14:48:23.541 +08:00] [thread 490] [info] fdMonitorThreadRun Start success!!!
+[2020-07-21 14:48:28.929 +08:00] [thread 488] [info] fdFaceClientGetUserModel userModelList size[10].
+[2020-07-21 14:48:29.100 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5111].
+[2020-07-21 14:48:29.449 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5102].
+[2020-07-21 14:48:29.778 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5109].
+[2020-07-21 14:48:30.095 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5103].
+[2020-07-21 14:48:30.309 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5107].
+[2020-07-21 14:48:30.566 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5108].
+[2020-07-21 14:48:30.872 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5104].
+[2020-07-21 14:48:31.231 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5106].
+[2020-07-21 14:48:31.444 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5105].
+[2020-07-21 14:48:31.812 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5110].
+[2020-07-21 14:48:32.043 +08:00] [thread 488] [info] fdFaceClientGetDeleteModel guidList size[59].
+[2020-07-21 14:48:32.211 +08:00] [thread 488] [info] fdFaceClientUpFailGuid Upload size[69]
+[2020-07-21 14:48:32.668 +08:00] [thread 488] [info] fdFaceClientGetUserModel userModelList size[10].
+[2020-07-21 14:48:33.117 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5121].
+[2020-07-21 14:48:33.563 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5112].
+[2020-07-21 14:48:33.611 +08:00] [thread 488] [error] fdRSGetMatFeature no valid face in the image.
+[2020-07-21 14:48:33.619 +08:00] [thread 488] [error] fdFVModelRegister dbModel.strFeature is empty, modelId is :5120
+[2020-07-21 14:48:33.619 +08:00] [thread 488] [warning] fdSTAddModel userModelList get empty feature with guid[502dfff6-1870-4a86-8549-ad73e9cc968b].
+[2020-07-21 14:48:33.864 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5116].
+[2020-07-21 14:48:34.009 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5117].
+[2020-07-21 14:48:34.382 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5119].
+[2020-07-21 14:48:34.533 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5115].
+[2020-07-21 14:48:34.742 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5114].
+[2020-07-21 14:48:34.889 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5118].
+[2020-07-21 14:48:35.224 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5113].
+[2020-07-21 14:48:35.418 +08:00] [thread 488] [info] fdFaceClientGetDeleteModel guidList size[0].
+[2020-07-21 14:48:35.458 +08:00] [thread 488] [info] fdFaceClientUpFailGuid Upload size[10]
+[2020-07-21 14:48:35.895 +08:00] [thread 488] [info] fdFaceClientGetUserModel userModelList size[10].
+[2020-07-21 14:48:36.035 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5131].
+[2020-07-21 14:48:36.182 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5124].
+[2020-07-21 14:48:36.421 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5130].
+[2020-07-21 14:48:36.776 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5128].
+[2020-07-21 14:48:37.079 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5122].
+[2020-07-21 14:48:37.496 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5126].
+[2020-07-21 14:48:37.809 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5129].
+[2020-07-21 14:48:38.132 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5123].
+[2020-07-21 14:48:38.425 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5125].
+[2020-07-21 14:48:38.792 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5127].
+[2020-07-21 14:48:38.958 +08:00] [thread 488] [info] fdFaceClientGetDeleteModel guidList size[0].
+[2020-07-21 14:48:38.998 +08:00] [thread 488] [info] fdFaceClientUpFailGuid Upload size[10]
+[2020-07-21 14:48:39.459 +08:00] [thread 488] [info] fdFaceClientGetUserModel userModelList size[10].
+[2020-07-21 14:48:39.600 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5132].
+[2020-07-21 14:48:39.938 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5134].
+[2020-07-21 14:48:40.308 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5136].
+[2020-07-21 14:48:40.583 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5140].
+[2020-07-21 14:48:40.879 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5137].
+[2020-07-21 14:48:41.185 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5141].
+[2020-07-21 14:48:41.550 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5138].
+[2020-07-21 14:48:41.849 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5139].
+[2020-07-21 14:48:42.094 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5133].
+[2020-07-21 14:48:42.380 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5135].
+[2020-07-21 14:48:42.538 +08:00] [thread 488] [info] fdFaceClientGetDeleteModel guidList size[0].
+[2020-07-21 14:48:42.578 +08:00] [thread 488] [info] fdFaceClientUpFailGuid Upload size[10]
+[2020-07-21 14:48:43.070 +08:00] [thread 488] [info] fdFaceClientGetUserModel userModelList size[10].
+[2020-07-21 14:48:43.338 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5142].
+[2020-07-21 14:48:43.478 +08:00] [thread 487] [error] fdCardReaderInit GetSAMStatus failed.
+[2020-07-21 14:48:43.478 +08:00] [thread 487] [warning] fdCardReaderThreadRun thread init failed.
+[2020-07-21 14:48:43.508 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5144].
+[2020-07-21 14:48:43.824 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5143].
+[2020-07-21 14:48:44.054 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5148].
+[2020-07-21 14:48:44.359 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5151].
+[2020-07-21 14:48:44.676 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5145].
+[2020-07-21 14:48:44.964 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5150].
+[2020-07-21 14:48:45.359 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5149].
+[2020-07-21 14:48:45.758 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5146].
+[2020-07-21 14:48:46.132 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5147].
+[2020-07-21 14:48:46.298 +08:00] [thread 488] [info] fdFaceClientGetDeleteModel guidList size[0].
+[2020-07-21 14:48:46.341 +08:00] [thread 488] [info] fdFaceClientUpFailGuid Upload size[10]
+[2020-07-21 14:48:46.741 +08:00] [thread 488] [info] fdFaceClientGetUserModel userModelList size[10].
+[2020-07-21 14:48:46.990 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5154].
+[2020-07-21 14:48:47.149 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5155].
+[2020-07-21 14:48:47.498 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5161].
+[2020-07-21 14:48:47.838 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5153].
+[2020-07-21 14:48:48.109 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5160].
+[2020-07-21 14:48:48.314 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5156].
+[2020-07-21 14:48:48.644 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5152].
+[2020-07-21 14:48:48.695 +08:00] [thread 488] [error] fdRSGetMatFeature no valid face in the image.
+[2020-07-21 14:48:48.709 +08:00] [thread 488] [error] fdFVModelRegister dbModel.strFeature is empty, modelId is :5157
+[2020-07-21 14:48:48.709 +08:00] [thread 488] [warning] fdSTAddModel userModelList get empty feature with guid[f866e2b5-32bb-468e-aa9e-3341f6eb2125].
+[2020-07-21 14:48:48.872 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5159].
+[2020-07-21 14:48:49.231 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5158].
+[2020-07-21 14:48:49.399 +08:00] [thread 488] [info] fdFaceClientGetDeleteModel guidList size[0].
+[2020-07-21 14:48:49.440 +08:00] [thread 488] [info] fdFaceClientUpFailGuid Upload size[10]
+[2020-07-21 14:48:49.896 +08:00] [thread 488] [info] fdFaceClientGetUserModel userModelList size[10].
+[2020-07-21 14:48:50.136 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5170].
+[2020-07-21 14:48:50.388 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5164].
+[2020-07-21 14:48:50.691 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5167].
+[2020-07-21 14:48:51.030 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5163].
+[2020-07-21 14:48:51.240 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5169].
+[2020-07-21 14:48:51.521 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5162].
+[2020-07-21 14:48:51.820 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5168].
+[2020-07-21 14:48:51.962 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5165].
+[2020-07-21 14:48:52.240 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5166].
+[2020-07-21 14:48:52.638 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5171].
+[2020-07-21 14:48:52.808 +08:00] [thread 488] [info] fdFaceClientGetDeleteModel guidList size[0].
+[2020-07-21 14:48:52.848 +08:00] [thread 488] [info] fdFaceClientUpFailGuid Upload size[10]
+[2020-07-21 14:48:53.354 +08:00] [thread 488] [info] fdFaceClientGetUserModel userModelList size[10].
+[2020-07-21 14:48:53.596 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5172].
+[2020-07-21 14:48:53.958 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5174].
+[2020-07-21 14:48:54.302 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5180].
+[2020-07-21 14:48:54.604 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5178].
+[2020-07-21 14:48:54.998 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5176].
+[2020-07-21 14:48:55.316 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5173].
+[2020-07-21 14:48:55.635 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5179].
+[2020-07-21 14:48:55.983 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5175].
+[2020-07-21 14:48:56.276 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5177].
+[2020-07-21 14:48:56.531 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5182].
+[2020-07-21 14:48:56.728 +08:00] [thread 488] [info] fdFaceClientGetDeleteModel guidList size[0].
+[2020-07-21 14:48:56.768 +08:00] [thread 488] [info] fdFaceClientUpFailGuid Upload size[10]
+[2020-07-21 14:48:57.505 +08:00] [thread 488] [info] fdFaceClientGetUserModel userModelList size[10].
+[2020-07-21 14:48:57.805 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5183].
+[2020-07-21 14:48:58.158 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5185].
+[2020-07-21 14:48:58.440 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5184].
+[2020-07-21 14:48:58.589 +08:00] [thread 484] [info] fdRSScan CLRRes check fPitch is :0.953857, blur is :0.0263672, facade is :0.73.
+[2020-07-21 14:48:58.589 +08:00] [thread 484] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 14:48:58.721 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5191].
+[2020-07-21 14:48:58.861 +08:00] [thread 484] [info] fdRSScan CLRRes check fPitch is :0.680908, blur is :0.043457, facade is :0.79.
+[2020-07-21 14:48:58.861 +08:00] [thread 484] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 14:48:59.148 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5189].
+[2020-07-21 14:48:59.401 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5186].
+[2020-07-21 14:48:59.674 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5192].
+[2020-07-21 14:48:59.999 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5188].
+[2020-07-21 14:49:00.041 +08:00] [thread 488] [error] fdRSGetMatFeature no valid face in the image.
+[2020-07-21 14:49:00.053 +08:00] [thread 488] [error] fdFVModelRegister dbModel.strFeature is empty, modelId is :5190
+[2020-07-21 14:49:00.053 +08:00] [thread 488] [warning] fdSTAddModel userModelList get empty feature with guid[b7670846-f3b7-4019-b69a-b83980d8ed01].
+[2020-07-21 14:49:00.703 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5187].
+[2020-07-21 14:49:00.888 +08:00] [thread 488] [info] fdFaceClientGetDeleteModel guidList size[0].
+[2020-07-21 14:49:00.928 +08:00] [thread 488] [info] fdFaceClientUpFailGuid Upload size[10]
+[2020-07-21 14:49:01.362 +08:00] [thread 488] [info] fdFaceClientGetUserModel userModelList size[10].
+[2020-07-21 14:49:01.726 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5197].
+[2020-07-21 14:49:02.124 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5193].
+[2020-07-21 14:49:02.319 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5194].
+[2020-07-21 14:49:02.601 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5199].
+[2020-07-21 14:49:02.895 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5195].
+[2020-07-21 14:49:03.052 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5201].
+[2020-07-21 14:49:03.204 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5203].
+[2020-07-21 14:49:03.577 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5196].
+[2020-07-21 14:49:03.976 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5200].
+[2020-07-21 14:49:04.120 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5198].
+[2020-07-21 14:49:04.278 +08:00] [thread 488] [info] fdFaceClientGetDeleteModel guidList size[0].
+[2020-07-21 14:49:04.318 +08:00] [thread 488] [info] fdFaceClientUpFailGuid Upload size[10]
+[2020-07-21 14:49:05.060 +08:00] [thread 488] [info] fdFaceClientGetUserModel userModelList size[10].
+[2020-07-21 14:49:05.304 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5208].
+[2020-07-21 14:49:05.601 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5206].
+[2020-07-21 14:49:05.967 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5212].
+[2020-07-21 14:49:06.244 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5205].
+[2020-07-21 14:49:06.390 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5207].
+[2020-07-21 14:49:06.720 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5204].
+[2020-07-21 14:49:06.772 +08:00] [thread 488] [error] fdRSGetMatFeature no valid face in the image.
+[2020-07-21 14:49:06.786 +08:00] [thread 488] [error] fdFVModelRegister dbModel.strFeature is empty, modelId is :5209
+[2020-07-21 14:49:06.786 +08:00] [thread 488] [warning] fdSTAddModel userModelList get empty feature with guid[fbe0b241-7df9-44c7-a867-6d294cd02cc7].
+[2020-07-21 14:49:07.156 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5213].
+[2020-07-21 14:49:07.481 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5211].
+[2020-07-21 14:49:08.944 +08:00] [thread 488] [error] fdRSGetMatFeature no valid face in the image.
+[2020-07-21 14:49:08.977 +08:00] [thread 488] [error] fdFVModelRegister dbModel.strFeature is empty, modelId is :5210
+[2020-07-21 14:49:08.977 +08:00] [thread 488] [warning] fdSTAddModel userModelList get empty feature with guid[2dac2605-bccc-4315-a197-20e940d22b43].
+[2020-07-21 14:49:09.238 +08:00] [thread 488] [info] fdFaceClientGetDeleteModel guidList size[0].
+[2020-07-21 14:49:09.278 +08:00] [thread 488] [info] fdFaceClientUpFailGuid Upload size[10]
+[2020-07-21 14:49:10.041 +08:00] [thread 488] [info] fdFaceClientGetUserModel userModelList size[10].
+[2020-07-21 14:49:10.199 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5220].
+[2020-07-21 14:49:10.470 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5222].
+[2020-07-21 14:49:10.799 +08:00] [thread 488] [warning] fdRSGetMatFeature confidence_value is 0.999023, and face_value is 0.54321.
+[2020-07-21 14:49:10.904 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5214].
+[2020-07-21 14:49:10.958 +08:00] [thread 488] [error] fdRSGetMatFeature no valid face in the image.
+[2020-07-21 14:49:10.975 +08:00] [thread 488] [error] fdFVModelRegister dbModel.strFeature is empty, modelId is :5217
+[2020-07-21 14:49:10.975 +08:00] [thread 488] [warning] fdSTAddModel userModelList get empty feature with guid[325977ac-314f-42e7-9e04-7e4127ac6235].
+[2020-07-21 14:49:11.331 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5216].
+[2020-07-21 14:49:12.501 +08:00] [thread 488] [error] fdRSGetMatFeature no valid face in the image.
+[2020-07-21 14:49:12.553 +08:00] [thread 488] [error] fdFVModelRegister dbModel.strFeature is empty, modelId is :5218
+[2020-07-21 14:49:12.553 +08:00] [thread 488] [warning] fdSTAddModel userModelList get empty feature with guid[f8c47d11-1c38-4618-ad97-e172830a0ecf].
+[2020-07-21 14:49:12.890 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5215].
+[2020-07-21 14:49:13.203 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5219].
+[2020-07-21 14:49:13.593 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5223].
+[2020-07-21 14:49:14.752 +08:00] [thread 488] [error] fdRSGetMatFeature no valid face in the image.
+[2020-07-21 14:49:14.791 +08:00] [thread 488] [error] fdFVModelRegister dbModel.strFeature is empty, modelId is :5221
+[2020-07-21 14:49:14.791 +08:00] [thread 488] [warning] fdSTAddModel userModelList get empty feature with guid[1e6b31fc-c151-4c8a-b042-90c4b030f0ca].
+[2020-07-21 14:49:15.029 +08:00] [thread 488] [info] fdFaceClientGetDeleteModel guidList size[0].
+[2020-07-21 14:49:15.078 +08:00] [thread 488] [info] fdFaceClientUpFailGuid Upload size[10]
+[2020-07-21 14:49:15.593 +08:00] [thread 488] [info] fdFaceClientGetUserModel userModelList size[10].
+[2020-07-21 14:49:15.974 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5224].
+[2020-07-21 14:49:16.393 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5228].
+[2020-07-21 14:49:16.753 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5230].
+[2020-07-21 14:49:17.074 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5227].
+[2020-07-21 14:49:17.326 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5233].
+[2020-07-21 14:49:17.473 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5226].
+[2020-07-21 14:49:17.793 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5229].
+[2020-07-21 14:49:18.070 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5232].
+[2020-07-21 14:49:18.444 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5231].
+[2020-07-21 14:49:18.769 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5225].
+[2020-07-21 14:49:18.919 +08:00] [thread 488] [info] fdFaceClientGetDeleteModel guidList size[0].
+[2020-07-21 14:49:18.958 +08:00] [thread 488] [info] fdFaceClientUpFailGuid Upload size[10]
+[2020-07-21 14:49:19.496 +08:00] [thread 488] [info] fdFaceClientGetUserModel userModelList size[10].
+[2020-07-21 14:49:19.799 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5236].
+[2020-07-21 14:49:20.120 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5241].
+[2020-07-21 14:49:20.438 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5235].
+[2020-07-21 14:49:20.845 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5234].
+[2020-07-21 14:49:21.093 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5240].
+[2020-07-21 14:49:21.376 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5237].
+[2020-07-21 14:49:21.667 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5242].
+[2020-07-21 14:49:21.993 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5243].
+[2020-07-21 14:49:22.298 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5239].
+[2020-07-21 14:49:22.619 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5238].
+[2020-07-21 14:49:22.808 +08:00] [thread 488] [info] fdFaceClientGetDeleteModel guidList size[0].
+[2020-07-21 14:49:22.848 +08:00] [thread 488] [info] fdFaceClientUpFailGuid Upload size[10]
+[2020-07-21 14:49:23.321 +08:00] [thread 488] [info] fdFaceClientGetUserModel userModelList size[10].
+[2020-07-21 14:49:23.570 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5244].
+[2020-07-21 14:49:23.723 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5407].
+[2020-07-21 14:49:24.046 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5406].
+[2020-07-21 14:49:24.417 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5245].
+[2020-07-21 14:49:24.859 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5411].
+[2020-07-21 14:49:25.523 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5410].
+[2020-07-21 14:49:25.658 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5303].
+[2020-07-21 14:49:26.046 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5409].
+[2020-07-21 14:49:26.449 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5408].
+[2020-07-21 14:49:26.752 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5405].
+[2020-07-21 14:49:26.938 +08:00] [thread 488] [info] fdFaceClientGetDeleteModel guidList size[0].
+[2020-07-21 14:49:26.978 +08:00] [thread 488] [info] fdFaceClientUpFailGuid Upload size[10]
+[2020-07-21 14:49:27.550 +08:00] [thread 488] [info] fdFaceClientGetUserModel userModelList size[10].
+[2020-07-21 14:49:27.819 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5420].
+[2020-07-21 14:49:28.182 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5418].
+[2020-07-21 14:49:28.513 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5416].
+[2020-07-21 14:49:28.823 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5419].
+[2020-07-21 14:49:29.110 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5413].
+[2020-07-21 14:49:29.388 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5417].
+[2020-07-21 14:49:29.699 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5414].
+[2020-07-21 14:49:30.064 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5421].
+[2020-07-21 14:49:30.249 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5412].
+[2020-07-21 14:49:30.558 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5415].
+[2020-07-21 14:49:30.708 +08:00] [thread 488] [info] fdFaceClientGetDeleteModel guidList size[0].
+[2020-07-21 14:49:30.749 +08:00] [thread 488] [info] fdFaceClientUpFailGuid Upload size[10]
+[2020-07-21 14:49:31.246 +08:00] [thread 488] [info] fdFaceClientGetUserModel userModelList size[10].
+[2020-07-21 14:49:31.388 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5422].
+[2020-07-21 14:49:31.679 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5429].
+[2020-07-21 14:49:32.221 +08:00] [thread 488] [error] fdRSGetMatFeature no valid face in the image.
+[2020-07-21 14:49:32.235 +08:00] [thread 488] [error] fdFVModelRegister dbModel.strFeature is empty, modelId is :5424
+[2020-07-21 14:49:32.235 +08:00] [thread 488] [warning] fdSTAddModel userModelList get empty feature with guid[87172c14-e562-4a3c-a625-1ba1d9ac92b7].
+[2020-07-21 14:49:32.530 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5427].
+[2020-07-21 14:49:32.714 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5423].
+[2020-07-21 14:49:33.023 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5425].
+[2020-07-21 14:49:33.201 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5426].
+[2020-07-21 14:49:33.478 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5430].
+[2020-07-21 14:49:33.825 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5431].
+[2020-07-21 14:49:33.971 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5428].
+[2020-07-21 14:49:34.118 +08:00] [thread 488] [info] fdFaceClientGetDeleteModel guidList size[0].
+[2020-07-21 14:49:34.158 +08:00] [thread 488] [info] fdFaceClientUpFailGuid Upload size[10]
+[2020-07-21 14:49:34.662 +08:00] [thread 488] [info] fdFaceClientGetUserModel userModelList size[10].
+[2020-07-21 14:49:34.955 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5432].
+[2020-07-21 14:49:35.225 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5433].
+[2020-07-21 14:49:35.532 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5809].
+[2020-07-21 14:49:35.692 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5606].
+[2020-07-21 14:49:36.304 +08:00] [thread 488] [error] fdRSGetMatFeature no valid face in the image.
+[2020-07-21 14:49:36.325 +08:00] [thread 488] [error] fdFVModelRegister dbModel.strFeature is empty, modelId is :5605
+[2020-07-21 14:49:36.326 +08:00] [thread 488] [warning] fdSTAddModel userModelList get empty feature with guid[6cb6d4e2-5f43-4688-bf40-6ae07944f9a7].
+[2020-07-21 14:49:36.482 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5808].
+[2020-07-21 14:49:36.723 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5805].
+[2020-07-21 14:49:36.866 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5807].
+[2020-07-21 14:49:37.173 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5806].
+[2020-07-21 14:49:37.467 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5810].
+[2020-07-21 14:49:37.638 +08:00] [thread 488] [info] fdFaceClientGetDeleteModel guidList size[0].
+[2020-07-21 14:49:37.679 +08:00] [thread 488] [info] fdFaceClientUpFailGuid Upload size[10]
+[2020-07-21 14:49:38.070 +08:00] [thread 488] [info] fdFaceClientGetUserModel userModelList size[10].
+[2020-07-21 14:49:38.234 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5813].
+[2020-07-21 14:49:38.415 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[6008].
+[2020-07-21 14:49:38.668 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[6004].
+[2020-07-21 14:49:38.826 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[6307].
+[2020-07-21 14:49:39.192 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[6106].
+[2020-07-21 14:49:39.482 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[6421].
+[2020-07-21 14:49:39.738 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[6105].
+[2020-07-21 14:49:39.872 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[6202].
+[2020-07-21 14:49:40.037 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5812].
+[2020-07-21 14:49:40.358 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[5811].
+[2020-07-21 14:49:40.548 +08:00] [thread 488] [info] fdFaceClientGetDeleteModel guidList size[0].
+[2020-07-21 14:49:40.588 +08:00] [thread 488] [info] fdFaceClientUpFailGuid Upload size[10]
+[2020-07-21 14:49:40.875 +08:00] [thread 488] [info] fdFaceClientGetUserModel userModelList size[10].
+[2020-07-21 14:49:41.029 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[7307].
+[2020-07-21 14:49:41.324 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[6422].
+[2020-07-21 14:49:41.475 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[7308].
+[2020-07-21 14:49:41.625 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[7309].
+[2020-07-21 14:49:41.812 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[7311].
+[2020-07-21 14:49:42.009 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[7711].
+[2020-07-21 14:49:42.231 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[6427].
+[2020-07-21 14:49:42.391 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[7310].
+[2020-07-21 14:49:42.554 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[7608].
+[2020-07-21 14:49:42.720 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[7708].
+[2020-07-21 14:49:42.888 +08:00] [thread 488] [info] fdFaceClientGetDeleteModel guidList size[0].
+[2020-07-21 14:49:42.929 +08:00] [thread 488] [info] fdFaceClientUpFailGuid Upload size[10]
+[2020-07-21 14:49:43.206 +08:00] [thread 488] [info] fdFaceClientGetUserModel userModelList size[10].
+[2020-07-21 14:49:43.345 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[13807].
+[2020-07-21 14:49:43.355 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[17367].
+[2020-07-21 14:49:43.366 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[17299].
+[2020-07-21 14:49:43.379 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[17401].
+[2020-07-21 14:49:43.389 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[17400].
+[2020-07-21 14:49:43.545 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[8309].
+[2020-07-21 14:49:43.675 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[13808].
+[2020-07-21 14:49:43.904 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[8309].
+[2020-07-21 14:49:44.189 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[13607].
+[2020-07-21 14:49:44.533 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[14309].
+[2020-07-21 14:49:44.729 +08:00] [thread 488] [info] fdFaceClientGetDeleteModel guidList size[0].
+[2020-07-21 14:49:44.769 +08:00] [thread 488] [info] fdFaceClientUpFailGuid Upload size[10]
+[2020-07-21 14:49:44.902 +08:00] [thread 488] [info] fdFaceClientGetUserModel userModelList size[10].
+[2020-07-21 14:49:44.913 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[17513].
+[2020-07-21 14:49:44.926 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[17491].
+[2020-07-21 14:49:44.939 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[17464].
+[2020-07-21 14:49:44.949 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[17463].
+[2020-07-21 14:49:44.964 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[17448].
+[2020-07-21 14:49:44.989 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[17433].
+[2020-07-21 14:49:45.013 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[17415].
+[2020-07-21 14:49:45.026 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[17490].
+[2020-07-21 14:49:45.036 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[17479].
+[2020-07-21 14:49:45.050 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[17434].
+[2020-07-21 14:49:45.221 +08:00] [thread 488] [info] fdFaceClientGetDeleteModel guidList size[0].
+[2020-07-21 14:49:45.268 +08:00] [thread 488] [info] fdFaceClientUpFailGuid Upload size[10]
+[2020-07-21 14:49:45.391 +08:00] [thread 488] [info] fdFaceClientGetUserModel userModelList size[10].
+[2020-07-21 14:49:45.403 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[17554].
+[2020-07-21 14:49:45.418 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[17523].
+[2020-07-21 14:49:45.430 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[17514].
+[2020-07-21 14:49:45.441 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[17565].
+[2020-07-21 14:49:45.460 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[17556].
+[2020-07-21 14:49:45.471 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[17536].
+[2020-07-21 14:49:45.481 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[17535].
+[2020-07-21 14:49:45.494 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[17572].
+[2020-07-21 14:49:45.509 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[17544].
+[2020-07-21 14:49:45.521 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[17570].
+[2020-07-21 14:49:45.708 +08:00] [thread 488] [info] fdFaceClientGetDeleteModel guidList size[0].
+[2020-07-21 14:49:45.748 +08:00] [thread 488] [info] fdFaceClientUpFailGuid Upload size[10]
+[2020-07-21 14:49:45.882 +08:00] [thread 488] [info] fdFaceClientGetUserModel userModelList size[10].
+[2020-07-21 14:49:45.900 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[17607].
+[2020-07-21 14:49:45.913 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[17583].
+[2020-07-21 14:49:45.927 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[17582].
+[2020-07-21 14:49:45.948 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[17707].
+[2020-07-21 14:49:45.959 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[17610].
+[2020-07-21 14:49:45.972 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[17601].
+[2020-07-21 14:49:45.989 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[17600].
+[2020-07-21 14:49:46.012 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[17593].
+[2020-07-21 14:49:46.028 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[17591].
+[2020-07-21 14:49:46.042 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[17606].
+[2020-07-21 14:49:46.220 +08:00] [thread 488] [info] fdFaceClientGetDeleteModel guidList size[0].
+[2020-07-21 14:49:46.258 +08:00] [thread 488] [info] fdFaceClientUpFailGuid Upload size[10]
+[2020-07-21 14:49:46.745 +08:00] [thread 488] [info] fdFaceClientGetUserModel userModelList size[10].
+[2020-07-21 14:49:47.166 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[17709].
+[2020-07-21 14:49:47.181 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[17708].
+[2020-07-21 14:49:47.372 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[17912].
+[2020-07-21 14:49:47.392 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[17911].
+[2020-07-21 14:49:47.844 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[18143].
+[2020-07-21 14:49:47.861 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[18139].
+[2020-07-21 14:49:48.040 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[18158].
+[2020-07-21 14:49:48.053 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[18157].
+[2020-07-21 14:49:48.263 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[18128].
+[2020-07-21 14:49:48.636 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[18131].
+[2020-07-21 14:49:48.828 +08:00] [thread 488] [info] fdFaceClientGetDeleteModel guidList size[0].
+[2020-07-21 14:49:48.868 +08:00] [thread 488] [info] fdFaceClientUpFailGuid Upload size[10]
+[2020-07-21 14:49:50.085 +08:00] [thread 488] [info] fdFaceClientGetUserModel userModelList size[10].
+[2020-07-21 14:49:50.400 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[18168].
+[2020-07-21 14:49:50.421 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[18165].
+[2020-07-21 14:49:50.440 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[18160].
+[2020-07-21 14:49:50.760 +08:00] [thread 488] [info] fdFVModelRegister register model with modelId[18167].
+[2020-07-21 14:49:51.528 +08:00] [thread 488] [error] fdRSGetMatFeature no valid face in the image.
+[2020-07-21 14:49:51.551 +08:00] [thread 488] [error] fdFVModelRegister dbModel.strFeature is empty, modelId is :18177
+[2020-07-21 14:49:51.551 +08:00] [thread 488] [warning] fdSTAddModel userModelList get empty feature with guid[a0e03e3e-04fc-4e05-bc55-e80bdfe2a342].
+[2020-07-21 14:49:52.320 +08:00] [thread 488] [error] fdRSGetMatFeature no valid face in the image.
+[2020-07-21 14:49:52.332 +08:00] [thread 488] [error] fdFVModelRegister dbModel.strFeature is empty, modelId is :18185
+[2020-07-21 14:49:52.332 +08:00] [thread 488] [warning] fdSTAddModel userModelList get empty feature with guid[29866b5e-d8ad-4750-b4e4-c0d4e1e08630].
+[2020-07-21 14:49:52.949 +08:00] [thread 488] [error] fdRSGetMatFeature no valid face in the image.
+[2020-07-21 14:49:52.961 +08:00] [thread 488] [error] fdFVModelRegister dbModel.strFeature is empty, modelId is :18187
+[2020-07-21 14:49:52.962 +08:00] [thread 488] [warning] fdSTAddModel userModelList get empty feature with guid[4831d6c7-5454-4f55-8ddd-2fefac72d5f5].
+[2020-07-21 14:49:54.708 +08:00] [thread 488] [error] fdRSGetMatFeature no valid face in the image.
+[2020-07-21 14:49:54.738 +08:00] [thread 488] [error] fdFVModelRegister dbModel.strFeature is empty, modelId is :18186
+[2020-07-21 14:49:54.739 +08:00] [thread 488] [warning] fdSTAddModel userModelList get empty feature with guid[713afd74-b4d6-4a0d-b8c1-44f9d79ffa25].
+[2020-07-21 14:49:55.296 +08:00] [thread 488] [error] fdRSGetMatFeature no valid face in the image.
+[2020-07-21 14:49:55.332 +08:00] [thread 488] [error] fdFVModelRegister dbModel.strFeature is empty, modelId is :18182
+[2020-07-21 14:49:55.332 +08:00] [thread 488] [warning] fdSTAddModel userModelList get empty feature with guid[6b3d45a3-25b3-47c7-a051-87d52c393a8e].
+[2020-07-21 14:49:56.043 +08:00] [thread 488] [error] fdRSGetMatFeature no valid face in the image.
+[2020-07-21 14:49:56.075 +08:00] [thread 488] [error] fdFVModelRegister dbModel.strFeature is empty, modelId is :18189
+[2020-07-21 14:49:56.075 +08:00] [thread 488] [warning] fdSTAddModel userModelList get empty feature with guid[14b101f1-a565-4cf0-86a4-ba7621682201].
+[2020-07-21 14:49:56.313 +08:00] [thread 488] [info] fdFaceClientGetDeleteModel guidList size[0].
+[2020-07-21 14:49:56.358 +08:00] [thread 488] [info] fdFaceClientUpFailGuid Upload size[10]
+[2020-07-21 14:49:57.795 +08:00] [thread 488] [info] fdFaceClientGetUserModel userModelList size[6].
+[2020-07-21 14:49:58.370 +08:00] [thread 488] [error] fdRSGetMatFeature no valid face in the image.
+[2020-07-21 14:49:58.384 +08:00] [thread 488] [error] fdFVModelRegister dbModel.strFeature is empty, modelId is :18207
+[2020-07-21 14:49:58.385 +08:00] [thread 488] [warning] fdSTAddModel userModelList get empty feature with guid[0b2c44f9-c6e3-4dd6-8f7c-4e4764c61879].
+[2020-07-21 14:49:58.972 +08:00] [thread 488] [error] fdRSGetMatFeature no valid face in the image.
+[2020-07-21 14:49:58.987 +08:00] [thread 488] [error] fdFVModelRegister dbModel.strFeature is empty, modelId is :18206
+[2020-07-21 14:49:58.988 +08:00] [thread 488] [warning] fdSTAddModel userModelList get empty feature with guid[f474227b-2cc9-45ef-9273-4d67d6539911].
+[2020-07-21 14:49:59.616 +08:00] [thread 488] [error] fdRSGetMatFeature no valid face in the image.
+[2020-07-21 14:49:59.630 +08:00] [thread 488] [error] fdFVModelRegister dbModel.strFeature is empty, modelId is :18200
+[2020-07-21 14:49:59.630 +08:00] [thread 488] [warning] fdSTAddModel userModelList get empty feature with guid[06cfd7db-81ab-42b3-89c8-07b909b525ff].
+[2020-07-21 14:50:00.216 +08:00] [thread 488] [error] fdRSGetMatFeature no valid face in the image.
+[2020-07-21 14:50:00.246 +08:00] [thread 488] [error] fdFVModelRegister dbModel.strFeature is empty, modelId is :18193
+[2020-07-21 14:50:00.246 +08:00] [thread 488] [warning] fdSTAddModel userModelList get empty feature with guid[25ff4f57-83c1-4443-b426-a027635a9cec].
+[2020-07-21 14:50:00.851 +08:00] [thread 488] [error] fdRSGetMatFeature no valid face in the image.
+[2020-07-21 14:50:00.866 +08:00] [thread 488] [error] fdFVModelRegister dbModel.strFeature is empty, modelId is :18204
+[2020-07-21 14:50:00.869 +08:00] [thread 488] [warning] fdSTAddModel userModelList get empty feature with guid[f4aa0c3d-ad3a-4133-9067-8dc946b4f68a].
+[2020-07-21 14:50:01.503 +08:00] [thread 488] [error] fdRSGetMatFeature no valid face in the image.
+[2020-07-21 14:50:01.521 +08:00] [thread 488] [error] fdFVModelRegister dbModel.strFeature is empty, modelId is :18195
+[2020-07-21 14:50:01.521 +08:00] [thread 488] [warning] fdSTAddModel userModelList get empty feature with guid[cd1901c3-212c-41fd-b6b5-aeeb98bedb32].
+[2020-07-21 14:50:01.718 +08:00] [thread 488] [info] fdFaceClientGetUpdateModel userModelList size[0].
+[2020-07-21 14:50:01.778 +08:00] [thread 488] [info] fdFaceClientGetDeleteModel guidList size[0].
+[2020-07-21 14:50:01.818 +08:00] [thread 488] [info] fdFaceClientUpFailGuid Upload size[6]
+[2020-07-21 14:50:01.968 +08:00] [thread 488] [info] fdFaceClientGetUserModel userModelList size[0].
+[2020-07-21 14:50:02.078 +08:00] [thread 488] [info] fdFaceClientGetUpdateModel userModelList size[0].
+[2020-07-21 14:50:02.118 +08:00] [thread 488] [info] fdFaceClientGetDeleteModel guidList size[0].
+[2020-07-21 14:51:02.258 +08:00] [thread 488] [info] fdFaceClientGetUserModel userModelList size[0].
+[2020-07-21 14:51:02.378 +08:00] [thread 488] [info] fdFaceClientGetUpdateModel userModelList size[0].
+[2020-07-21 14:51:02.418 +08:00] [thread 488] [info] fdFaceClientGetDeleteModel guidList size[0].
+[2020-07-21 14:51:18.960 +08:00] [thread 484] [info] fdRSScan IRRes check pitch is :0.374023, blur is :0.147461, facade is :0.892461.
+[2020-07-21 14:51:18.961 +08:00] [thread 484] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 14:51:19.578 +08:00] [thread 484] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.500977, facade is :0.768519.
+[2020-07-21 14:51:19.578 +08:00] [thread 484] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 14:52:02.578 +08:00] [thread 488] [info] fdFaceClientGetUserModel userModelList size[0].
+[2020-07-21 14:52:02.679 +08:00] [thread 488] [info] fdFaceClientGetUpdateModel userModelList size[0].
+[2020-07-21 14:52:02.720 +08:00] [thread 488] [info] fdFaceClientGetDeleteModel guidList size[0].
+[2020-07-21 14:53:02.858 +08:00] [thread 488] [info] fdFaceClientGetUserModel userModelList size[0].
+[2020-07-21 14:53:02.999 +08:00] [thread 488] [info] fdFaceClientGetUpdateModel userModelList size[0].
+[2020-07-21 14:53:03.039 +08:00] [thread 488] [info] fdFaceClientGetDeleteModel guidList size[0].
+[2020-07-21 14:54:03.178 +08:00] [thread 488] [info] fdFaceClientGetUserModel userModelList size[0].
+[2020-07-21 14:54:03.298 +08:00] [thread 488] [info] fdFaceClientGetUpdateModel userModelList size[0].
+[2020-07-21 14:54:03.338 +08:00] [thread 488] [info] fdFaceClientGetDeleteModel guidList size[0].
+[2020-07-21 14:55:03.468 +08:00] [thread 488] [info] fdFaceClientGetUserModel userModelList size[0].
+[2020-07-21 14:55:03.580 +08:00] [thread 488] [info] fdFaceClientGetUpdateModel userModelList size[0].
+[2020-07-21 14:55:03.638 +08:00] [thread 488] [info] fdFaceClientGetDeleteModel guidList size[0].
+[2020-07-21 14:56:03.778 +08:00] [thread 488] [info] fdFaceClientGetUserModel userModelList size[0].
+[2020-07-21 14:56:03.899 +08:00] [thread 488] [info] fdFaceClientGetUpdateModel userModelList size[0].
+[2020-07-21 14:56:03.938 +08:00] [thread 488] [info] fdFaceClientGetDeleteModel guidList size[0].
+[2020-07-21 14:57:04.109 +08:00] [thread 488] [info] fdFaceClientGetUserModel userModelList size[0].
+[2020-07-21 14:57:04.208 +08:00] [thread 488] [info] fdFaceClientGetUpdateModel userModelList size[0].
+[2020-07-21 14:57:04.248 +08:00] [thread 488] [info] fdFaceClientGetDeleteModel guidList size[0].
+[2020-07-21 14:58:04.398 +08:00] [thread 488] [info] fdFaceClientGetUserModel userModelList size[0].
+[2020-07-21 14:58:04.509 +08:00] [thread 488] [info] fdFaceClientGetUpdateModel userModelList size[0].
+[2020-07-21 14:58:04.549 +08:00] [thread 488] [info] fdFaceClientGetDeleteModel guidList size[0].
+[2020-07-21 14:59:04.688 +08:00] [thread 488] [info] fdFaceClientGetUserModel userModelList size[0].
+[2020-07-21 14:59:04.793 +08:00] [thread 488] [info] fdFaceClientGetUpdateModel userModelList size[0].
+[2020-07-21 14:59:04.838 +08:00] [thread 488] [info] fdFaceClientGetDeleteModel guidList size[0].
+[2020-07-21 15:00:04.978 +08:00] [thread 488] [info] fdFaceClientGetUserModel userModelList size[0].
+[2020-07-21 15:00:05.078 +08:00] [thread 488] [info] fdFaceClientGetUpdateModel userModelList size[0].
+[2020-07-21 15:00:05.118 +08:00] [thread 488] [info] fdFaceClientGetDeleteModel guidList size[0].
+[2020-07-21 15:00:33.166 +08:00] [thread 484] [info] fdRSScan IRRes check pitch is :0.991943, blur is :0.563721, facade is :0.889149.
+[2020-07-21 15:00:33.166 +08:00] [thread 484] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 15:01:05.258 +08:00] [thread 488] [info] fdFaceClientGetUserModel userModelList size[0].
+[2020-07-21 15:01:05.369 +08:00] [thread 488] [info] fdFaceClientGetUpdateModel userModelList size[0].
+[2020-07-21 15:01:05.408 +08:00] [thread 488] [info] fdFaceClientGetDeleteModel guidList size[0].
+[2020-07-21 15:02:05.568 +08:00] [thread 488] [info] fdFaceClientGetUserModel userModelList size[0].
+[2020-07-21 15:02:05.658 +08:00] [thread 488] [info] fdFaceClientGetUpdateModel userModelList size[0].
+[2020-07-21 15:02:05.698 +08:00] [thread 488] [info] fdFaceClientGetDeleteModel guidList size[0].
+[2020-07-21 15:03:05.828 +08:00] [thread 488] [info] fdFaceClientGetUserModel userModelList size[0].
+[2020-07-21 15:03:06.132 +08:00] [thread 488] [info] fdFaceClientGetUpdateModel userModelList size[1].
+[2020-07-21 15:03:06.153 +08:00] [thread 488] [info] fdDbUserRoomUpdate insert into,the guid is:c6ad5c60-5e5a-4085-82ec-0e106e87ffc8
+[2020-07-21 15:03:06.783 +08:00] [thread 488] [error] fdRSGetMatFeature no valid face in the image.
+[2020-07-21 15:03:06.809 +08:00] [thread 488] [info] fdDbModelUpdate insert into db,the modelid is:18202
+[2020-07-21 15:03:06.809 +08:00] [thread 488] [info] fdRSFaceUnreg unregister model with modelId[18202].
+[2020-07-21 15:03:06.809 +08:00] [thread 488] [error] fdFVModelRegister dbModel.strFeature is empty, modelId is :18202
+[2020-07-21 15:03:06.809 +08:00] [thread 488] [warning] fdSTUpdateModel get empty feature with guid[c6ad5c60-5e5a-4085-82ec-0e106e87ffc8].
+[2020-07-21 15:03:06.849 +08:00] [thread 488] [info] fdFaceClientGetDeleteModel guidList size[0].
+[2020-07-21 15:03:06.874 +08:00] [thread 488] [info] fdFaceClientUpFailGuid Upload size[1]
+[2020-07-21 15:03:07.029 +08:00] [thread 488] [info] fdFaceClientGetUserModel userModelList size[0].
+[2020-07-21 15:03:07.149 +08:00] [thread 488] [info] fdFaceClientGetUpdateModel userModelList size[0].
+[2020-07-21 15:03:07.188 +08:00] [thread 488] [info] fdFaceClientGetDeleteModel guidList size[0].
+[2020-07-21 15:04:07.329 +08:00] [thread 488] [info] fdFaceClientGetUserModel userModelList size[0].
+[2020-07-21 15:04:07.460 +08:00] [thread 488] [info] fdFaceClientGetUpdateModel userModelList size[0].
+[2020-07-21 15:04:07.509 +08:00] [thread 488] [info] fdFaceClientGetDeleteModel guidList size[0].
+[2020-07-21 15:04:34.176 +08:00] [thread 484] [info] fdRSScan CLRRes check fPitch is :0.997314, blur is :0.735107, facade is :0.365926.
+[2020-07-21 15:04:34.176 +08:00] [thread 484] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 15:05:07.658 +08:00] [thread 488] [info] fdFaceClientGetUserModel userModelList size[0].
+[2020-07-21 15:05:07.759 +08:00] [thread 488] [info] fdFaceClientGetUpdateModel userModelList size[0].
+[2020-07-21 15:05:07.798 +08:00] [thread 488] [info] fdFaceClientGetDeleteModel guidList size[0].
+[2020-07-21 15:05:21.040 +08:00] [thread 484] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.9104, facade is :0.695309.
+[2020-07-21 15:05:21.040 +08:00] [thread 484] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 15:05:21.714 +08:00] [thread 484] [info] fdRSScan CLRRes check fPitch is :0.997559, blur is :0.945068, facade is :0.599941.
+[2020-07-21 15:05:21.714 +08:00] [thread 484] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 15:05:21.861 +08:00] [thread 484] [info] fdRSScan CLRRes check fPitch is :0.411377, blur is :0.925781, facade is :0.48736.
+[2020-07-21 15:05:21.861 +08:00] [thread 484] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 15:06:08.544 +08:00] [thread 488] [info] fdFaceClientGetUserModel userModelList size[1].
+[2020-07-21 15:06:09.184 +08:00] [thread 488] [error] fdRSGetMatFeature no valid face in the image.
+[2020-07-21 15:06:09.210 +08:00] [thread 488] [error] fdFVModelRegister dbModel.strFeature is empty, modelId is :18208
+[2020-07-21 15:06:09.210 +08:00] [thread 488] [warning] fdSTAddModel userModelList get empty feature with guid[14dc20c5-d327-497a-8913-8f16107b08fa].
+[2020-07-21 15:06:09.340 +08:00] [thread 488] [info] fdFaceClientGetUpdateModel userModelList size[0].
+[2020-07-21 15:06:09.378 +08:00] [thread 488] [info] fdFaceClientGetDeleteModel guidList size[0].
+[2020-07-21 15:06:09.419 +08:00] [thread 488] [info] fdFaceClientUpFailGuid Upload size[1]
+[2020-07-21 15:06:09.568 +08:00] [thread 488] [info] fdFaceClientGetUserModel userModelList size[0].
+[2020-07-21 15:06:09.671 +08:00] [thread 488] [info] fdFaceClientGetUpdateModel userModelList size[0].
+[2020-07-21 15:06:09.718 +08:00] [thread 488] [info] fdFaceClientGetDeleteModel guidList size[0].
+[2020-07-21 15:07:09.858 +08:00] [thread 488] [info] fdFaceClientGetUserModel userModelList size[0].
+[2020-07-21 15:07:09.968 +08:00] [thread 488] [info] fdFaceClientGetUpdateModel userModelList size[0].
+[2020-07-21 15:07:10.009 +08:00] [thread 488] [info] fdFaceClientGetDeleteModel guidList size[0].
+[2020-07-21 15:07:32.517 +08:00] [thread 484] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.478271, facade is :0.794815.
+[2020-07-21 15:07:32.517 +08:00] [thread 484] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 15:07:32.631 +08:00] [thread 484] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.411133, facade is :0.826482.
+[2020-07-21 15:07:32.631 +08:00] [thread 484] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 15:08:10.149 +08:00] [thread 488] [info] fdFaceClientGetUserModel userModelList size[0].
+[2020-07-21 15:08:10.248 +08:00] [thread 488] [info] fdFaceClientGetUpdateModel userModelList size[0].
+[2020-07-21 15:08:10.288 +08:00] [thread 488] [info] fdFaceClientGetDeleteModel guidList size[0].
+[2020-07-21 15:08:46.437 +08:00] [thread 484] [info] fdRSScan CLRRes check fPitch is :0.999512, blur is :0.782227, facade is :0.502099.
+[2020-07-21 15:08:46.437 +08:00] [thread 484] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 15:08:53.397 +08:00] [thread 484] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.528809, facade is :0.78963.
+[2020-07-21 15:08:53.397 +08:00] [thread 484] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 15:08:53.515 +08:00] [thread 484] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.703613, facade is :0.787396.
+[2020-07-21 15:08:53.595 +08:00] [thread 484] [info] fdFaceMin iWidth is:35
+[2020-07-21 15:08:53.595 +08:00] [thread 484] [warning] fdFaceMin range less than min!
+[2020-07-21 15:08:53.741 +08:00] [thread 484] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.663086, facade is :0.847175.
+[2020-07-21 15:08:53.741 +08:00] [thread 484] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 15:08:53.882 +08:00] [thread 484] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.677734, facade is :0.845378.
+[2020-07-21 15:08:53.882 +08:00] [thread 484] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 15:08:53.994 +08:00] [thread 484] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.615723, facade is :0.858403.
+[2020-07-21 15:08:53.994 +08:00] [thread 484] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 15:08:54.140 +08:00] [thread 484] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.725098, facade is :0.866547.
+[2020-07-21 15:08:54.214 +08:00] [thread 484] [info] fdFaceMin iWidth is:35
+[2020-07-21 15:08:54.214 +08:00] [thread 484] [warning] fdFaceMin range less than min!
+[2020-07-21 15:08:54.322 +08:00] [thread 484] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.769043, facade is :0.915072.
+[2020-07-21 15:08:54.397 +08:00] [thread 484] [info] fdFaceMin iWidth is:35
+[2020-07-21 15:08:54.397 +08:00] [thread 484] [warning] fdFaceMin range less than min!
+[2020-07-21 15:08:54.552 +08:00] [thread 484] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.75, facade is :0.915614.
+[2020-07-21 15:08:54.630 +08:00] [thread 484] [info] fdFaceMin iWidth is:35
+[2020-07-21 15:08:54.630 +08:00] [thread 484] [warning] fdFaceMin range less than min!
+[2020-07-21 15:08:54.749 +08:00] [thread 484] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.669189, facade is :0.89969.
+[2020-07-21 15:08:54.749 +08:00] [thread 484] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 15:08:55.429 +08:00] [thread 484] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.581543, facade is :0.867858.
+[2020-07-21 15:08:55.429 +08:00] [thread 484] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 15:08:55.582 +08:00] [thread 484] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.628174, facade is :0.874913.
+[2020-07-21 15:08:55.583 +08:00] [thread 484] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 15:08:55.693 +08:00] [thread 484] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.660156, facade is :0.881854.
+[2020-07-21 15:08:55.693 +08:00] [thread 484] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 15:08:55.835 +08:00] [thread 484] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.60083, facade is :0.891477.
+[2020-07-21 15:08:55.836 +08:00] [thread 484] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 15:08:55.943 +08:00] [thread 484] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.595947, facade is :0.88379.
+[2020-07-21 15:08:55.943 +08:00] [thread 484] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 15:08:56.052 +08:00] [thread 484] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.722168, facade is :0.872715.
+[2020-07-21 15:08:56.122 +08:00] [thread 484] [info] fdFaceMin iWidth is:35
+[2020-07-21 15:08:56.122 +08:00] [thread 484] [warning] fdFaceMin range less than min!
+[2020-07-21 15:08:56.269 +08:00] [thread 484] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.675537, facade is :0.877146.
+[2020-07-21 15:08:56.269 +08:00] [thread 484] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 15:08:56.386 +08:00] [thread 484] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.697266, facade is :0.883636.
+[2020-07-21 15:08:56.386 +08:00] [thread 484] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 15:08:56.543 +08:00] [thread 484] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.636963, facade is :0.888537.
+[2020-07-21 15:08:56.544 +08:00] [thread 484] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 15:08:56.654 +08:00] [thread 484] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.63916, facade is :0.88809.
+[2020-07-21 15:08:56.654 +08:00] [thread 484] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 15:08:57.309 +08:00] [thread 484] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.768066, facade is :0.672888.
+[2020-07-21 15:08:57.309 +08:00] [thread 484] [warning] fdRSScan check m_FaceBelive, m_FaceFacade, m_FaceBlur is error!
+[2020-07-21 15:08:57.460 +08:00] [thread 484] [info] fdRSScan CLRRes check fPitch is :1, blur is :0.891357, facade is :0.872481.
+[2020-07-21 15:08:57.547 +08:00] [thread 484] [info] fdFaceMin iWidth is:34
+[2020-07-21 15:08:57.548 +08:00] [thread 484] [warning] fdFaceMin range less than min!
