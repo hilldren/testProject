@@ -3,6 +3,5 @@
 ################################################################################
 
 /TestSln/.vs/TestSln/v15
-/TestSln/8InchLinuxConfigTool/bin/Debug
-/TestSln/8InchLinuxConfigTool/obj/Debug/logs
-/TestSln/8InchLinuxConfigTool/bin/Debug/logs
+obj
+bin
